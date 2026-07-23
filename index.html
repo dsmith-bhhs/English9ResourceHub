@@ -285,38 +285,6 @@
               </table>
             </div>
           </div>
-
-          <div style="background:#fff;border-radius:12px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);overflow:hidden;">
-            <div style="padding:10px 16px;background:#002855;color:#fff;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #9C1918;flex-wrap:wrap;gap:6px;">
-              <h3 style="font-family:'Lora',serif;font-size:14px;font-weight:700;margin:0;display:flex;align-items:center;gap:8px;"><i class="fa-solid fa-diagram-project" style="color:#fcd34d;"></i> NYS Learning Standards</h3>
-              <span style="font-size:10px;color:#cbd5e1;font-family:monospace;">NYSED ELA (2017)</span>
-            </div>
-            <div style="padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;">
-              <p style="font-size:11px;color:#475569;line-height:1.5;margin:0;">Four standards threads guide English 9 instruction. Click a thread to see the standards it contains.</p>
-              <sc-for list="{{ standardsThreadsList }}" as="th" hint-placeholder-count="4">
-                <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-                  <button onClick="{{ th.onToggle }}" style="width:100%;text-align:left;padding:10px 12px;background:{{ th.headerBg }};border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;">
-                    <span style="display:flex;align-items:center;gap:8px;">
-                      <span style="width:26px;height:26px;border-radius:6px;background:{{ th.accent }};color:#fff;display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0;"><i class="{{ th.icon }}"></i></span>
-                      <span style="font-size:12px;font-weight:700;color:#002855;">{{ th.label }}</span>
-                      <span style="font-size:10px;color:#94a3b8;font-family:monospace;">{{ th.countLabel }}</span>
-                    </span>
-                    <i class="{{ th.chevronClass }}" style="font-size:11px;color:#64748b;"></i>
-                  </button>
-                  <sc-if value="{{ th.isOpen }}" hint-placeholder-val="{{ false }}">
-                    <div style="padding:4px 12px 12px;display:flex;flex-direction:column;gap:8px;max-height:280px;overflow-y:auto;">
-                      <sc-for list="{{ th.standardsList }}" as="s" hint-placeholder-count="3">
-                        <div style="padding:8px 10px;background:#f8fafc;border-radius:6px;border-left:3px solid {{ th.accent }};">
-                          <div style="font-size:11px;font-weight:700;color:{{ th.accent }};font-family:monospace;margin-bottom:2px;">{{ s.code }}</div>
-                          <p style="font-size:11.5px;color:#334155;line-height:1.5;margin:0;">{{ s.text }}</p>
-                        </div>
-                      </sc-for>
-                    </div>
-                  </sc-if>
-                </div>
-              </sc-for>
-            </div>
-          </div>
         </div>
       </div>
     </sc-if>
@@ -1071,50 +1039,8 @@ class Component extends DCLogic {
     irGenre: 'All Genres',
     irRubricOpen: false,
     writingSection: 'aiPolicy',
-    copiedPromptKey: null,
-    expandedThreadId: null
+    copiedPromptKey: null
   };
-
-  toggleThread = (id) => this.setState((s) => ({ expandedThreadId: s.expandedThreadId === id ? null : id }));
-
-  standardsThreads = [
-    { id: 'reading', label: 'Reading', icon: 'fa-solid fa-book-open-reader', accent: '#002855', standards: [
-      { code: '9-10R1', text: 'Cite strong and thorough textual evidence to support analysis of what the text says explicitly/implicitly and make logical inferences; develop questions for deeper understanding and further exploration.' },
-      { code: '9-10R2', text: 'Determine one or more themes or central ideas in a text and analyze its development, including how it emerges and is shaped and refined by specific details; objectively and accurately summarize a text.' },
-      { code: '9-10R3', text: 'Analyze how and why individuals, events, and ideas develop and interact over the course of a text — in literary texts, how complex/dynamic characters develop and advance the plot or theme; in informational texts, how the author unfolds an analysis or argument.' },
-      { code: '9-10R4', text: 'Determine the meaning of words and phrases as used in a text, including figurative and connotative meanings; analyze the impact of word choice on meaning, tone, and mood; examine key/technical terms and how language differs across genres.' },
-      { code: '9-10R5', text: 'In literary texts, consider how varied aspects of structure create meaning and affect the reader; in informational texts, consider how an author\u2019s intent influences particular sentences, paragraphs, or sections.' },
-      { code: '9-10R6', text: 'Analyze how authors employ point of view, perspective, and purpose to shape explicit and implicit messages (e.g., rhetorical strategies, literary elements and devices).' },
-      { code: '9-10R7', text: 'Analyze how a subject/content is presented in two or more formats by determining which details are emphasized, altered, or absent in each account.' },
-      { code: '9-10R8', text: 'Delineate and evaluate an argument and specific claims in a text, assessing the validity or fallacy of key statements by examining whether supporting evidence is relevant and sufficient.' },
-      { code: '9-10R9', text: 'Choose and develop criteria in order to evaluate the quality of texts; make connections to other texts, ideas, cultural perspectives, eras, and personal experiences.' }
-    ] },
-    { id: 'writing', label: 'Writing', icon: 'fa-solid fa-pen-nib', accent: '#9C1918', standards: [
-      { code: '9-10W1', text: 'Write arguments to support claims that analyze substantive topics or texts, using valid reasoning and relevant/sufficient evidence: introduce a precise claim distinct from counterclaims; develop both in a balanced way; use precise, content-specific language; use varied transitions for cohesion; provide a concluding statement; maintain an appropriate style and tone.' },
-      { code: '9-10W2', text: 'Write informative/explanatory texts to examine and convey complex ideas, concepts, and information clearly and accurately: organize ideas to make connections/distinctions; develop the topic with well-chosen facts, definitions, and details; use precise language; use varied transitions; provide a concluding statement; maintain an appropriate style.' },
-      { code: '9-10W3', text: 'Write narratives to develop real or imagined experiences using effective technique, well-chosen details, and well-structured sequences: engage the reader, establish point of view and characters; use narrative techniques (dialogue, pacing, description, reflection); sequence events for cohesion; use precise, sensory language; provide a reflective conclusion.' },
-      { code: '9-10W4', text: 'Create a poem, story, play, artwork, or other response to a text, author, theme, or personal experience, demonstrating knowledge of a variety of techniques and genres; explain divergences from the original when appropriate.' },
-      { code: '9-10W5', text: 'Draw evidence from literary or informational texts to support analysis, reflection, and research, applying the grade 9/10 Reading Standards to both literary and informational text.' },
-      { code: '9-10W6', text: 'Conduct research to answer questions, including self-generated questions, or solve a problem; narrow or broaden the inquiry as needed; synthesize multiple sources.' },
-      { code: '9-10W7', text: 'Gather relevant information from multiple sources using advanced searches; assess the usefulness of each source; integrate information selectively; avoid plagiarism and follow a standard citation format.' }
-    ] },
-    { id: 'speaking', label: 'Speaking & Listening', icon: 'fa-solid fa-comments', accent: '#1e40af', standards: [
-      { code: '9-10SL1', text: 'Initiate and participate effectively in a range of collaborative discussions with diverse partners on complex topics, texts, and issues: come prepared and refer to evidence; set norms and goals with peers; pose and respond to questions relating to broader themes; respond thoughtfully to diverse perspectives and summarize points of agreement/disagreement.' },
-      { code: '9-10SL2', text: 'Integrate multiple sources of information presented in diverse formats (visual, quantitative, oral), evaluating the credibility, accuracy, and relevance of each source.' },
-      { code: '9-10SL3', text: 'Evaluate a speaker\u2019s point of view, reasoning, and use of evidence and rhetoric; identify any fallacious reasoning or exaggerated/distorted evidence.' },
-      { code: '9-10SL4', text: 'Present claims, findings, and supporting evidence clearly, concisely, and logically, with organization, development, substance, and style appropriate to task, purpose, and audience.' },
-      { code: '9-10SL5', text: 'Make strategic use of digital media and/or visual displays in presentations to enhance understanding of findings and to engage the audience.' },
-      { code: '9-10SL6', text: 'Adapt speech to a variety of contexts and tasks, demonstrating command of formal English when indicated or appropriate.' }
-    ] },
-    { id: 'language', label: 'Language', icon: 'fa-solid fa-spell-check', accent: '#166534', standards: [
-      { code: '9-10L1', text: 'Demonstrate command of the conventions of academic English grammar and usage when writing or speaking.' },
-      { code: '9-10L2', text: 'Demonstrate command of the conventions of academic English capitalization, punctuation, and spelling when writing.' },
-      { code: '9-10L3', text: 'Apply knowledge of language to understand how language functions in different contexts, to make effective choices for meaning or style, and to comprehend more fully when reading or listening; write and edit work to conform to a professionally recognized style manual appropriate for the discipline.' },
-      { code: '9-10L4', text: 'Determine or clarify the meaning of unknown and multiple-meaning words and phrases, choosing flexibly from a range of strategies: use context clues; recognize word-change patterns that signal meaning or part of speech; consult reference materials; verify a preliminary determination of meaning.' },
-      { code: '9-10L5', text: 'Demonstrate understanding of figurative language, word relationships, and nuances in word meanings: interpret figures of speech (e.g., euphemism, oxymoron) in context; analyze nuances in the meaning of words with similar denotations.' },
-      { code: '9-10L6', text: 'Acquire and accurately use general academic and content-specific words and phrases sufficient for reading, writing, speaking, and listening; demonstrate independence in applying vocabulary knowledge when it is important to comprehension or expression.' }
-    ] }
-  ];
 
   tabDefs = [
     { id: 'overview', label: 'Course Information', icon: 'fa-compass' },
@@ -2165,19 +2091,6 @@ class Component extends DCLogic {
       style: NAV_BASE + (t.id === activeTab ? NAV_ACTIVE : '')
     }));
 
-    const standardsThreadsList = this.standardsThreads.map((th) => {
-      const isOpen = this.state.expandedThreadId === th.id;
-      return {
-        ...th,
-        isOpen,
-        headerBg: isOpen ? '#f1f5f9' : '#fff',
-        chevronClass: isOpen ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down',
-        countLabel: `${th.standards.length} standards`,
-        standardsList: th.standards,
-        onToggle: () => this.toggleThread(th.id)
-      };
-    });
-
     const gradeRows = this.gradeDefs.map((g) => ({
       rubric: g.rubric, grade: g.grade, esd: g.esd,
       badgeStyle: `padding:2px 8px;border-radius:4px;background:${g.bg};color:${g.color};font-weight:700;font-size:10px;`
@@ -2204,7 +2117,6 @@ class Component extends DCLogic {
       isReading: activeTab === 'reading',
       tabs,
       gradeRows,
-      standardsThreadsList,
       bookCards,
       quickAccessCards: bookCards.filter((b) => this.quickAccessOrder.includes(b.key)),
       anchorCards: bookCards.filter((b) => this.quickAccessOrder.includes(b.key)),
