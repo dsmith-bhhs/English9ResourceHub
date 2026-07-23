@@ -833,16 +833,14 @@
             <a href="{{ book.audioUrl }}" target="_blank" rel="noopener" style="padding:4px 10px;background:#9C1918;color:#fff;border-radius:6px;font-size:11px;font-weight:500;text-decoration:none;display:flex;align-items:center;gap:6px;" style-hover="background:#7d1312;"><i class="fa-solid fa-headphones" style="font-size:10px;"></i> Open Audiobook</a>
           </div>
 
-          <div style="flex-grow:1;overflow-y:auto;background:#525659;padding:20px;display:flex;flex-direction:column;align-items:center;gap:16px;">
-            <sc-if value="{{ readerPagesLoading }}" hint-placeholder-val="{{ false }}">
-              <p style="color:#e2e8f0;font-size:13px;margin:40px 0;">Loading pages…</p>
+          <div style="flex-grow:1;position:relative;background:#525659;">
+            <sc-if value="{{ pdfLoading }}" hint-placeholder-val="{{ true }}">
+              <p style="color:#e2e8f0;font-size:13px;margin:0;position:absolute;top:40px;left:0;right:0;text-align:center;">Loading…</p>
             </sc-if>
-            <sc-if value="{{ readerPagesShowEmpty }}" hint-placeholder-val="{{ false }}">
-              <p style="color:#e2e8f0;font-size:13px;margin:40px 0;">Couldn't load the reader. Use "Open in new tab" above instead.</p>
+            <sc-if value="{{ pdfLoadError }}" hint-placeholder-val="{{ false }}">
+              <p style="color:#e2e8f0;font-size:13px;margin:0;position:absolute;top:40px;left:0;right:0;text-align:center;">Couldn't load the reader. Use "Open in new tab" above instead.</p>
             </sc-if>
-<sc-for list="{{ readerPagesList }}" as="pg" hint-placeholder-count="0">
-              <div style="{{ pg.pageBgStyle }}"></div>
-            </sc-for>
+            <iframe src="{{ pdfBlobUrl }}" style="width:100%;height:100%;border:none;display:block;"></iframe>
           </div>
         </div>
       </div>
@@ -1029,9 +1027,7 @@ class Component extends DCLogic {
     activeBookKey: null,
     pdfBlobUrl: null,
     pdfLoading: false,
-    readerPages: [],
-    readerPagesLoading: false,
-    readerPagesError: false,
+    pdfLoadError: false,
     activeListIndex: 0,
     cardIndex: 0,
     cardFlipped: false,
@@ -1170,7 +1166,7 @@ class Component extends DCLogic {
       title: 'A Raisin in the Sun (1958)', author: 'Lorraine Hansberry', byline: 'Lorraine Hansberry • Drama',
       genre: 'Drama (1958)', badgeBg: '#fffbeb', badgeColor: '#92400e', badgeBorder: '#fde68a',
       blurb: 'Explores identity, systemic barriers, family resilience, and the American Dream in 1950s Chicago.',
-      audioUrl: 'https://www.youtube.com/watch?v=utRA2Ck3swU',
+      audioUrl: 'https://youtu.be/tuTe8lghua4',
       pdfUrl: encodeURI('uploads/A Raisin in the Sun.pdf'),
       hasAudio: true,
       sections: [
@@ -1198,7 +1194,7 @@ class Component extends DCLogic {
       title: 'Lord of the Flies (1954)', author: 'William Golding', byline: 'William Golding • Fiction',
       genre: 'Fiction (1954)', badgeBg: '#f0f9ff', badgeColor: '#075985', badgeBorder: '#bae6fd',
       blurb: 'Examines human nature, social structure versus instinct, and leadership through stranded schoolboys.',
-      audioUrl: 'https://www.youtube.com/watch?v=W6M6aqCgUL0',
+      audioUrl: 'https://www.youtube.com/watch?v=utRA2Ck3swU',
       pdfUrl: encodeURI('uploads/Lord of the Flies.pdf'),
       hasAudio: true,
       sections: [
@@ -1222,7 +1218,7 @@ class Component extends DCLogic {
       title: 'Macbeth (1606)', author: 'William Shakespeare', byline: 'William Shakespeare • Tragedy',
       genre: 'Tragedy (1606)', badgeBg: '#faf5ff', badgeColor: '#6b21a8', badgeBorder: '#e9d5ff',
       blurb: 'Analyzes unchecked ambition, tragic flaws, guilt, and fate through iconic poetic drama (No Fear edition).',
-      audioUrl: 'https://youtu.be/tuTe8lghua4',
+      audioUrl: 'https://www.youtube.com/watch?v=W6M6aqCgUL0',
       pdfUrl: encodeURI('uploads/No Fear Shakespeare Macbeth.pdf'),
       hasAudio: true,
       sections: [
@@ -1957,51 +1953,23 @@ class Component extends DCLogic {
 
   setTab = (id) => this.setState({ activeTab: id });
   openReader = (key) => {
-    this.setState({ readerOpen: true, activeBookKey: key, readerPages: [], readerPagesLoading: true });
+    this.setState({ readerOpen: true, activeBookKey: key, pdfBlobUrl: null, pdfLoading: true, pdfLoadError: false });
     this.loadReaderPdf(this.books[key].pdfUrl);
   };
-  closeReader = () => this.setState({ readerOpen: false, readerPages: [], readerPagesLoading: false });
+  closeReader = () => {
+    if (this.state.pdfBlobUrl) URL.revokeObjectURL(this.state.pdfBlobUrl);
+    this.setState({ readerOpen: false, pdfBlobUrl: null, pdfLoading: false });
+  };
 
   loadReaderPdf = async (rawPdfUrl) => {
     try {
       const url = this.assetUrl(rawPdfUrl);
-      const waitForLib = () => new Promise((resolve, reject) => {
-        if (window.pdfjsLib) return resolve();
-        if (!document.getElementById('__pdfjs_script')) {
-          const s = document.createElement('script');
-          s.id = '__pdfjs_script';
-          s.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
-          s.onerror = () => { window.__pdfjsFailed = true; };
-          document.head.appendChild(s);
-        }
-        let waited = 0;
-        const check = () => {
-          if (window.pdfjsLib) {
-            window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-            return resolve();
-          }
-          if (window.__pdfjsFailed || waited > 8000) return reject(new Error('pdfjs unavailable'));
-          waited += 100;
-          setTimeout(check, 100);
-        };
-        check();
-      });
-      await waitForLib();
-      const doc = await window.pdfjsLib.getDocument(url).promise;
-      const pages = [];
-      for (let i = 1; i <= doc.numPages; i++) {
-        const page = await doc.getPage(i);
-        const viewport = page.getViewport({ scale: 1.6 });
-        const canvas = document.createElement('canvas');
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-        await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
-        pages.push(canvas.toDataURL('image/png'));
-        this.setState({ readerPages: [...pages] });
-      }
-      this.setState({ readerPagesLoading: false });
+      const resp = await fetch(url);
+      const blob = await resp.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      this.setState({ pdfBlobUrl: blobUrl, pdfLoading: false });
     } catch (e) {
-      this.setState({ readerPagesLoading: false, readerPagesError: true });
+      this.setState({ pdfLoading: false, pdfLoadError: true });
     }
   };
   changeList = (idx) => this.setState({ activeListIndex: idx, cardIndex: 0, cardFlipped: false });
@@ -2031,8 +1999,7 @@ class Component extends DCLogic {
   });
 
   renderVals() {
-    const { activeTab, readerOpen, activeBookKey, writingSection, copiedPromptKey, readerPages, readerPagesLoading, readerPagesError } = this.state;
-    const readerPagesList = (readerPages || []).map((src, i) => ({ src, i, pageBgStyle: `width:100%;max-width:100%;aspect-ratio:8.5/11;background:#fff center/contain no-repeat url('${src}');box-shadow:0 4px 16px rgba(0,0,0,0.3);border-radius:2px;` }));
+    const { activeTab, readerOpen, activeBookKey, writingSection, copiedPromptKey, pdfBlobUrl, pdfLoading, pdfLoadError } = this.state;
     const findPdf = (key) => this.assetUrl(this.writingResourceDefs.find((r) => r.key === key).pdfUrl);
 
     const writingSections = [
@@ -2224,10 +2191,9 @@ class Component extends DCLogic {
       flashcardInnerStyle,
       flashcardFrontStyle: flashcardFaceBase + 'background:#fff;border:2px solid #e2e8f0;',
       flashcardBackStyle: flashcardFaceBase + 'background:#002855;transform:rotateY(180deg);',
-      readerPagesList,
-      hasReaderPages: readerPagesList.length > 0,
-      readerPagesLoading,
-      readerPagesShowEmpty: readerPagesError || (!readerPagesLoading && readerPagesList.length === 0),
+      pdfBlobUrl,
+      pdfLoading,
+      pdfLoadError,
       readerContainerStyle: 'width:100%;max-width:1000px;height:92vh;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.3);display:flex;flex-direction:column;overflow:hidden;border:1px solid #cbd5e1;background:#fff;'
     };
   }
