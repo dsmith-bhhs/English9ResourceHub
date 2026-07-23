@@ -1,0 +1,1286 @@
+[
+ {
+  "term": "levity",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "teacherlater",
+    "fixed": "teacher later"
+   }
+  ]
+ },
+ {
+  "term": "antipathy",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "theaudience.",
+    "fixed": "the audience."
+   }
+  ]
+ },
+ {
+  "term": "avocation",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thatgave",
+    "fixed": "that gave"
+   }
+  ]
+ },
+ {
+  "term": "charlatan",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "isnot",
+    "fixed": "is not"
+   }
+  ]
+ },
+ {
+  "term": "doughty",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "foughtagainst",
+    "fixed": "fought against"
+   }
+  ]
+ },
+ {
+  "term": "elucidate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "afteryou",
+    "fixed": "after you"
+   }
+  ]
+ },
+ {
+  "term": "indolent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "inabilityto",
+    "fixed": "inability to"
+   }
+  ]
+ },
+ {
+  "term": "callow",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "companyhired",
+    "fixed": "company hired"
+   }
+  ]
+ },
+ {
+  "term": "blithe",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "whotells",
+    "fixed": "who tells"
+   }
+  ]
+ },
+ {
+  "term": "nepotism",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "theopposing",
+    "fixed": "the opposing"
+   }
+  ]
+ },
+ {
+  "term": "malign",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "toslander",
+    "fixed": "to slander"
+   }
+  ]
+ },
+ {
+  "term": "posthumous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "poemswere",
+    "fixed": "poems were"
+   }
+  ]
+ },
+ {
+  "term": "heinous",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orwicked",
+    "fixed": "or wicked"
+   }
+  ]
+ },
+ {
+  "term": "heinous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "forhis",
+    "fixed": "for his"
+   }
+  ]
+ },
+ {
+  "term": "clandestine",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "someillegal",
+    "fixed": "some illegal"
+   }
+  ]
+ },
+ {
+  "term": "clandestine",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "discoveredby",
+    "fixed": "discovered by"
+   }
+  ]
+ },
+ {
+  "term": "refute",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "ofsomething",
+    "fixed": "of something"
+   }
+  ]
+ },
+ {
+  "term": "refute",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thedefendant.",
+    "fixed": "the defendant."
+   }
+  ]
+ },
+ {
+  "term": "cursory",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "materialcould",
+    "fixed": "material could"
+   }
+  ]
+ },
+ {
+  "term": "reticent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "fewpeople",
+    "fixed": "few people"
+   }
+  ]
+ },
+ {
+  "term": "travail",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ofserving",
+    "fixed": "of serving"
+   }
+  ]
+ },
+ {
+  "term": "opulence",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orabundance.",
+    "fixed": "or abundance."
+   }
+  ]
+ },
+ {
+  "term": "opulence",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "herneighbors.",
+    "fixed": "her neighbors."
+   }
+  ]
+ },
+ {
+  "term": "arduous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "anarduous",
+    "fixed": "an arduous"
+   }
+  ]
+ },
+ {
+  "term": "paltry",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "paltrythree",
+    "fixed": "paltry three"
+   }
+  ]
+ },
+ {
+  "term": "abduct",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "childfrom",
+    "fixed": "child from"
+   }
+  ]
+ },
+ {
+  "term": "obliterate",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "outcompletely",
+    "fixed": "out completely"
+   }
+  ]
+ },
+ {
+  "term": "prodigious",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "oramount;",
+    "fixed": "or amount;"
+   }
+  ]
+ },
+ {
+  "term": "prodigious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hasperformed",
+    "fixed": "has performed"
+   }
+  ]
+ },
+ {
+  "term": "haughty",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orscorn",
+    "fixed": "or scorn"
+   }
+  ]
+ },
+ {
+  "term": "equanimity",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "disputefrom",
+    "fixed": "dispute from"
+   }
+  ]
+ },
+ {
+  "term": "gratuity",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "billis",
+    "fixed": "bill is"
+   }
+  ]
+ },
+ {
+  "term": "loquacious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thatthe",
+    "fixed": "that the"
+   }
+  ]
+ },
+ {
+  "term": "reprehensible",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hisenemy",
+    "fixed": "his enemy"
+   }
+  ]
+ },
+ {
+  "term": "taciturn",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "notgiven",
+    "fixed": "not given"
+   }
+  ]
+ },
+ {
+  "term": "taciturn",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Wayne",
+    "fixed": "Way ne"
+   }
+  ]
+ },
+ {
+  "term": "ubiquitous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tobe",
+    "fixed": "to be"
+   },
+   {
+    "original": "America.",
+    "fixed": "Am erica."
+   }
+  ]
+ },
+ {
+  "term": "vapid",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hadever",
+    "fixed": "had ever"
+   }
+  ]
+ },
+ {
+  "term": "meticulous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "dressingfor",
+    "fixed": "dressing for"
+   }
+  ]
+ },
+ {
+  "term": "ameliorate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hecould",
+    "fixed": "he could"
+   }
+  ]
+ },
+ {
+  "term": "deride",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "studentnot",
+    "fixed": "student not"
+   }
+  ]
+ },
+ {
+  "term": "diffident",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hisdiffident",
+    "fixed": "his diffident"
+   }
+  ]
+ },
+ {
+  "term": "ostracize",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "England.",
+    "fixed": "En gland."
+   }
+  ]
+ },
+ {
+  "term": "truculent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "beenvery",
+    "fixed": "been very"
+   }
+  ]
+ },
+ {
+  "term": "vindicate",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "asof",
+    "fixed": "as of"
+   }
+  ]
+ },
+ {
+  "term": "vindicate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "bythe",
+    "fixed": "by the"
+   }
+  ]
+ },
+ {
+  "term": "pugnacious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "afterhe",
+    "fixed": "after he"
+   }
+  ]
+ },
+ {
+  "term": "inane",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "aswe",
+    "fixed": "as we"
+   }
+  ]
+ },
+ {
+  "term": "enmity",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "feelingsof",
+    "fixed": "feelings of"
+   }
+  ]
+ },
+ {
+  "term": "enmity",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Osama",
+    "fixed": "Os ama"
+   }
+  ]
+ },
+ {
+  "term": "sinecure",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "muchwork",
+    "fixed": "much work"
+   }
+  ]
+ },
+ {
+  "term": "inveigle",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "onwith",
+    "fixed": "on with"
+   }
+  ]
+ },
+ {
+  "term": "anachronism",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "seemsto",
+    "fixed": "seems to"
+   }
+  ]
+ },
+ {
+  "term": "avarice",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "obsessionfor",
+    "fixed": "obsession for"
+   }
+  ]
+ },
+ {
+  "term": "condone",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "anoffense",
+    "fixed": "an offense"
+   }
+  ]
+ },
+ {
+  "term": "condone",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tryto",
+    "fixed": "try to"
+   }
+  ]
+ },
+ {
+  "term": "mundane",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ofpreparing",
+    "fixed": "of preparing"
+   }
+  ]
+ },
+ {
+  "term": "placid",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "forsome",
+    "fixed": "for some"
+   }
+  ]
+ },
+ {
+  "term": "spurious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hadintended",
+    "fixed": "had intended"
+   }
+  ]
+ },
+ {
+  "term": "stealthy",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "theunderbrush,",
+    "fixed": "the underbrush,"
+   }
+  ]
+ },
+ {
+  "term": "urbane",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "andcourteous",
+    "fixed": "and courteous"
+   }
+  ]
+ },
+ {
+  "term": "pariah",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "societythat",
+    "fixed": "society that"
+   }
+  ]
+ },
+ {
+  "term": "desecrate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "largewooden",
+    "fixed": "large wooden"
+   }
+  ]
+ },
+ {
+  "term": "vociferous",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "feelingsknown",
+    "fixed": "feelings known"
+   }
+  ]
+ },
+ {
+  "term": "euphemism",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "forone",
+    "fixed": "for one"
+   }
+  ]
+ },
+ {
+  "term": "euphemism",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hetactfully",
+    "fixed": "he tactfully"
+   }
+  ]
+ },
+ {
+  "term": "dearth",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "adearth",
+    "fixed": "a dearth"
+   }
+  ]
+ },
+ {
+  "term": "harbinger",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "ofwhat",
+    "fixed": "of what"
+   }
+  ]
+ },
+ {
+  "term": "squalid",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Jakob",
+    "fixed": "Ja kob"
+   }
+  ]
+ },
+ {
+  "term": "decry",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "todenounce",
+    "fixed": "to denounce"
+   }
+  ]
+ },
+ {
+  "term": "extol",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hisgreat",
+    "fixed": "his great"
+   }
+  ]
+ },
+ {
+  "term": "innate",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "ratherthan",
+    "fixed": "rather than"
+   }
+  ]
+ },
+ {
+  "term": "enigma",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orperson",
+    "fixed": "or person"
+   }
+  ]
+ },
+ {
+  "term": "rancor",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "bitterhate",
+    "fixed": "bitter hate"
+   }
+  ]
+ },
+ {
+  "term": "rancor",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ratherthan",
+    "fixed": "rather than"
+   }
+  ]
+ },
+ {
+  "term": "invective",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "insultcurses,",
+    "fixed": "insult curses,"
+   }
+  ]
+ },
+ {
+  "term": "invective",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tothe",
+    "fixed": "to the"
+   }
+  ]
+ },
+ {
+  "term": "obdurate",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orobstinate",
+    "fixed": "or obstinate"
+   }
+  ]
+ },
+ {
+  "term": "pragmatic",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orspeculation",
+    "fixed": "or speculation"
+   }
+  ]
+ },
+ {
+  "term": "pragmatic",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "foodon",
+    "fixed": "food on"
+   }
+  ]
+ },
+ {
+  "term": "banal",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "boredthe",
+    "fixed": "bored the"
+   }
+  ]
+ },
+ {
+  "term": "ostentatious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "newsuit",
+    "fixed": "new suit"
+   }
+  ]
+ },
+ {
+  "term": "alacrity",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "withalacrity",
+    "fixed": "with alacrity"
+   }
+  ]
+ },
+ {
+  "term": "temerity",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "aknockout",
+    "fixed": "a knockout"
+   }
+  ]
+ },
+ {
+  "term": "eclectic",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "worldaffairs.",
+    "fixed": "world affairs."
+   }
+  ]
+ },
+ {
+  "term": "magnanimous",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "ormeanness",
+    "fixed": "or meanness"
+   }
+  ]
+ },
+ {
+  "term": "magnanimous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Churchill",
+    "fixed": "Chur chill"
+   }
+  ]
+ },
+ {
+  "term": "parsimonious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "deniedhimself",
+    "fixed": "denied himself"
+   }
+  ]
+ },
+ {
+  "term": "officious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ofintruding",
+    "fixed": "of intruding"
+   }
+  ]
+ },
+ {
+  "term": "intrepid",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "andhighly",
+    "fixed": "and highly"
+   }
+  ]
+ },
+ {
+  "term": "lugubrious",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orridiculous",
+    "fixed": "or ridiculous"
+   }
+  ]
+ },
+ {
+  "term": "esoteric",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "mostpeople",
+    "fixed": "most people"
+   }
+  ]
+ },
+ {
+  "term": "imperious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ownimportance",
+    "fixed": "own importance"
+   }
+  ]
+ },
+ {
+  "term": "poignant",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thepoignant",
+    "fixed": "the poignant"
+   }
+  ]
+ },
+ {
+  "term": "tacit",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "myidea,",
+    "fixed": "my idea,"
+   }
+  ]
+ },
+ {
+  "term": "vicarious",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "aperson",
+    "fixed": "a person"
+   }
+  ]
+ },
+ {
+  "term": "prevaricate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "youdid.",
+    "fixed": "you did."
+   }
+  ]
+ },
+ {
+  "term": "supercilious",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Irefuse",
+    "fixed": "I refuse"
+   }
+  ]
+ },
+ {
+  "term": "enervate",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "offorce",
+    "fixed": "of force"
+   }
+  ]
+ },
+ {
+  "term": "prototype",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "andtypical",
+    "fixed": "and typical"
+   }
+  ]
+ },
+ {
+  "term": "bequeath",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hiscountry.",
+    "fixed": "his country."
+   }
+  ]
+ },
+ {
+  "term": "laud",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "hisservice",
+    "fixed": "his service"
+   }
+  ]
+ },
+ {
+  "term": "crass",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "subjectfar",
+    "fixed": "subject far"
+   }
+  ]
+ },
+ {
+  "term": "complacent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tothe",
+    "fixed": "to the"
+   }
+  ]
+ },
+ {
+  "term": "cajole",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "falsewords;",
+    "fixed": "false words;"
+   }
+  ]
+ },
+ {
+  "term": "cajole",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tothe",
+    "fixed": "to the"
+   }
+  ]
+ },
+ {
+  "term": "chagrin",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orhumiliation",
+    "fixed": "or humiliation"
+   }
+  ]
+ },
+ {
+  "term": "docile",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "Iwas",
+    "fixed": "I was"
+   }
+  ]
+ },
+ {
+  "term": "vacillate",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "decidedwhat",
+    "fixed": "decided what"
+   }
+  ]
+ },
+ {
+  "term": "sage",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "andgood",
+    "fixed": "and good"
+   }
+  ]
+ },
+ {
+  "term": "sage",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thousandsof",
+    "fixed": "thousands of"
+   }
+  ]
+ },
+ {
+  "term": "acme",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "theacme",
+    "fixed": "the acme"
+   }
+  ]
+ },
+ {
+  "term": "deter",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "dutylay,",
+    "fixed": "duty lay,"
+   }
+  ]
+ },
+ {
+  "term": "epicure",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "eatingand",
+    "fixed": "eating and"
+   }
+  ]
+ },
+ {
+  "term": "epicure",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "thatwill",
+    "fixed": "that will"
+   }
+  ]
+ },
+ {
+  "term": "surfeit",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "andevasions;",
+    "fixed": "and evasions;"
+   }
+  ]
+ },
+ {
+  "term": "itinerant",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "overthe",
+    "fixed": "over the"
+   }
+  ]
+ },
+ {
+  "term": "cache",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "offirearms",
+    "fixed": "of firearms"
+   }
+  ]
+ },
+ {
+  "term": "incite",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "couldhave",
+    "fixed": "could have"
+   }
+  ]
+ },
+ {
+  "term": "appease",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orgiving",
+    "fixed": "or giving"
+   }
+  ]
+ },
+ {
+  "term": "impetuous",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "rashactions.",
+    "fixed": "rash actions."
+   }
+  ]
+ },
+ {
+  "term": "perfidy",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "asymbol",
+    "fixed": "a symbol"
+   }
+  ]
+ },
+ {
+  "term": "hovel",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "suchhovels.",
+    "fixed": "such hovels."
+   }
+  ]
+ },
+ {
+  "term": "advent",
+  "field": "definition",
+  "changes": [
+   {
+    "original": "orbeing;",
+    "fixed": "or being;"
+   }
+  ]
+ },
+ {
+  "term": "advent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "ofsleds,",
+    "fixed": "of sleds,"
+   }
+  ]
+ },
+ {
+  "term": "indigent",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "tohelp",
+    "fixed": "to help"
+   }
+  ]
+ },
+ {
+  "term": "effrontery",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "askme",
+    "fixed": "ask me"
+   }
+  ]
+ },
+ {
+  "term": "rectify",
+  "field": "sentence",
+  "changes": [
+   {
+    "original": "isbetter",
+    "fixed": "is better"
+   }
+  ]
+ }
+]

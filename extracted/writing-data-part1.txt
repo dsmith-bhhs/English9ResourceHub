@@ -1,0 +1,20 @@
+  literaryTerms = [
+    { term: 'Setting', def: 'The time period, location, and circumstances of the work.' },
+    { term: 'Point of View', def: 'The narrative perspective from which a story is told — 1st person, 3rd person limited, or 3rd person omniscient.' },
+    { term: 'Characterization', def: 'The conveying of details about a character through description, conversation, or the character\'s actions and thoughts.' },
+    { term: 'Direct Characterization', def: 'When the author directly states a character\'s physical appearance or personality.' },
+    { term: 'Indirect Characterization', def: 'When the reader infers a character\'s traits from their behavior, words, or interactions, or from what others say about them.' },
+    { term: 'Theme', def: 'The author\'s underlying message about life, love, or human nature — not a cliché or a moral. Often used to build a thesis statement.' },
+    { term: 'Foreshadowing', def: 'The use of hints or clues to suggest what will happen later in the story.' },
+    { term: 'Imagery', def: 'Language that appeals to the five senses (also called sensory details).' },
+    { term: 'Symbolism', def: 'The use of a person, place, or object to represent an abstract idea.' },
+    { term: 'Conflict', def: 'A struggle between opposing forces — internal (within oneself) or external (between two or more entities).' },
+    { term: 'Plot Structure', def: 'The sequence of events in a story: exposition, rising action, climax, falling action, and resolution.' },
+    { term: 'Mood', def: 'The emotional atmosphere of the story.' },
+    { term: 'Tone', def: 'The writer\'s attitude or feelings about the subject of the story.' },
+    { term: 'Close Reading', def: 'A mode of analysis that moves a reader beyond comprehension of the text to interpretation of the text.' }
+  ];
+
+  summaryVerbs = ['acknowledges', 'advises', 'asserts', 'compares', 'contrasts', 'critiques', 'defines', 'demonstrates', 'describes', 'discusses', 'explains', 'explores', 'identifies', 'investigates', 'illustrates', 'presents', 'recommends', 'suggests'];
+  summaryTransitions = ['first > next > then > finally', 'first > another > finally', 'first of all > besides > in addition', 'first of all > in addition > another > finally', 'one > another > finally', 'one > one other > along with > last', 'to begin > at the same time > finally'];
+

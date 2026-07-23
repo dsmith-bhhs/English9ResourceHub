@@ -1,0 +1,165 @@
+  editNotes = [
+    {
+      title: 'Edit Note 1: Clauses & Conjunctions',
+      keyTerms: [{ term: 'Clause', def: 'a group of words' }, { term: 'Independent clause', def: 'contains a subject and a verb; it stands alone as a complete sentence.' }, { term: 'Conjunctions (FANBOYS)', def: 'For, And, Nor, But, Or, Yet, So' }],
+      rule: 'Two independent clauses joined by a conjunction need a comma before the conjunction.',
+      examples: ['We must win this game, or we will be out of the playoffs. (two independent clauses)', 'We must win this game or be out of the playoffs. (only the first clause is independent — no comma)'],
+      practice: [
+        { sentence: 'I tried to do the third problem but I couldn\'t remember how to do square roots.', answer: 'I tried to do the third problem, but I couldn\'t remember how to do square roots.', explanation: 'Two independent clauses joined by "but" — comma needed before the conjunction.' },
+        { sentence: 'The elevator has stopped running and everyone is going to be late to work.', answer: 'The elevator has stopped running, and everyone is going to be late to work.', explanation: 'Two independent clauses joined by "and" — comma needed.' },
+        { sentence: 'I had to follow the recipe very carefully for I had never tried to bake a cake before.', answer: 'I had to follow the recipe very carefully, for I had never tried to bake a cake before.', explanation: 'Two independent clauses joined by "for" — comma needed.' },
+        { sentence: 'The bus arrived on time but left 30 minutes late.', answer: 'The bus arrived on time but left 30 minutes late. (NC)', explanation: '"left 30 minutes late" has no subject of its own — only the first clause is independent, so no comma is needed.' },
+        { sentence: 'The drama club will be putting on the play “Hamilton” and I can hardly wait to audition.', answer: 'The drama club will be putting on the play “Hamilton,” and I can hardly wait to audition.', explanation: 'Two independent clauses joined by "and" — comma needed.' }
+      ]
+    },
+    {
+      title: 'Edit Note 2: Introductory Dependent Clauses',
+      keyTerms: [{ term: 'Dependent clause', def: 'depends on another part of the sentence to make it a complete thought.' }, { term: 'Introductory dependent clause', def: 'a dependent clause that comes at the beginning of a sentence.' }],
+      rule: 'Introductory dependent clauses are set off by commas.',
+      examples: ['When the world series is over, Henry will complete his homework. (introductory dependent clause)'],
+      wordList: ['After', 'Although', 'As', 'Because', 'Before', 'If', 'Provided', 'Since', 'Unless', 'Until', 'When', 'Whenever', 'Wherever', 'While'],
+      practice: [
+        { sentence: 'Although Bob worked hard, he stayed on the second team.', answer: 'Although Bob worked hard, he stayed on the second team. (correct as written)', explanation: '"Although Bob worked hard" is an introductory dependent clause, already correctly set off by a comma.' },
+        { sentence: 'Because everyone seemed satisfied, the plans were not changed.', answer: 'Because everyone seemed satisfied, the plans were not changed. (correct as written)', explanation: '"Because everyone seemed satisfied" is an introductory dependent clause, already correctly set off by a comma.' },
+        { sentence: 'The crowd cheered wildly when Aaron Judge hit a home run.', answer: 'The crowd cheered wildly when Aaron Judge hit a home run. (NC)', explanation: 'The dependent clause "when Aaron Judge hit a home run" comes at the end, not the beginning — no comma needed.' },
+        { sentence: 'When the recital was finished, Rebecca smiled proudly.', answer: 'When the recital was finished, Rebecca smiled proudly. (correct as written)', explanation: 'Introductory dependent clause, correctly set off by a comma.' },
+        { sentence: 'Whenever I make brownies, my brother is suddenly my best friend.', answer: 'Whenever I make brownies, my brother is suddenly my best friend. (correct as written)', explanation: 'Introductory dependent clause, correctly set off by a comma.' },
+        { sentence: 'Dr. Jones gave me a shot after she determined that I had the flu.', answer: 'Dr. Jones gave me a shot after she determined that I had the flu. (NC)', explanation: 'The dependent clause "after she determined that I had the flu" comes at the end — no comma needed.' }
+      ]
+    },
+    {
+      title: 'Edit Note 3: Restrictive & Nonrestrictive Clauses',
+      keyTerms: [{ term: 'Nonrestrictive clause', def: 'presents added information not needed to keep the meaning of the sentence intact — set off by commas.' }, { term: 'Restrictive clause', def: 'comes in the middle or end of a sentence and is necessary to the meaning — not set off by commas.' }],
+      rule: 'Use "that" to introduce restrictive clauses and "which" to introduce nonrestrictive clauses.',
+      examples: ['The farm, which has a beautiful yellow barn, sells apples and pumpkins. (nonrestrictive)', 'The farm that we passed a mile back sells apples and pumpkins. (restrictive)'],
+      practice: [
+        { sentence: 'The skirt that I want is simply too expensive.', answer: 'The skirt that I want is simply too expensive. (NC)', explanation: 'Restrictive clause introduced by "that" — necessary to identify which skirt, no commas.' },
+        { sentence: 'Writers who are just important to success as the actors seldom get any of the glory.', answer: 'Writers who are just as important to success as the actors seldom get any of the glory. (NC)', explanation: 'Restrictive clause identifying which writers — no commas needed.' },
+        { sentence: 'My mother told me to marry a man who can cook.', answer: 'My mother told me to marry a man who can cook. (NC)', explanation: 'Restrictive clause — necessary to the meaning, no commas.' },
+        { sentence: 'The cat which recently had kittens drinks at least a pint of milk a day.', answer: 'The cat, which recently had kittens, drinks at least a pint of milk a day.', explanation: 'Nonrestrictive clause (extra info about the cat) — set off with commas.' },
+        { sentence: 'Lynn who had been accepted for admission to several colleges was awarded a scholarship to Berkeley.', answer: 'Lynn, who had been accepted for admission to several colleges, was awarded a scholarship to Berkeley.', explanation: 'Nonrestrictive clause — Lynn is already identified by name, so the clause is extra information, set off by commas.' },
+        { sentence: 'The river that empties into the Gulf of Mexico is called the Mississippi.', answer: 'The river that empties into the Gulf of Mexico is called the Mississippi. (NC)', explanation: 'Restrictive clause identifying which river — no commas.' },
+        { sentence: 'The Mississippi River which empties into the Gulf of Mexico has inspired much great American writing.', answer: 'The Mississippi River, which empties into the Gulf of Mexico, has inspired much great American writing.', explanation: 'Nonrestrictive clause — the river is already named, so the clause is extra information, set off by commas.' }
+      ]
+    },
+    {
+      title: 'Edit Note 4: Appositives',
+      keyTerms: [{ term: 'Appositive', def: 'a word or group of words that follows a noun and identifies it or gives more information — set off by commas.' }, { term: 'Restrictive appositive', def: 'so closely related to the word it modifies that no comma is necessary; usually one word, often before the noun.' }],
+      rule: 'Set off appositives with commas, unless the appositive is restrictive (usually one word, often placed before the noun).',
+      examples: ['Mrs. Aber and Mrs. Salvato, our English teachers, are friends.', 'We visited the Adams Library, one of the oldest in America.', 'My nephew Jim / The American gymnast Simone Biles / My friend Julia (restrictive — no comma)'],
+      practice: [
+        { sentence: 'Tom Brady the star quarterback of the Bucs injured his shoulder in last night\'s game.', answer: 'Tom Brady, the star quarterback of the Bucs, injured his shoulder in last night\'s game.', explanation: '"the star quarterback of the Bucs" is an appositive giving extra info — set off with commas on both sides.' },
+        { sentence: 'Mother\'s guest the distinguished Ms. Worthall was not amused.', answer: 'Mother\'s guest, the distinguished Ms. Worthall, was not amused.', explanation: 'Appositive set off with commas.' },
+        { sentence: 'F. Scott Fitzgerald’s The Great Gatsby the book I have often told you about is considered a great American novel.', answer: 'F. Scott Fitzgerald’s The Great Gatsby, the book I have often told you about, is considered a great American novel.', explanation: 'Appositive set off with commas.' },
+        { sentence: 'The door was opened by the butler a tall man with brooding eyes.', answer: 'The door was opened by the butler, a tall man with brooding eyes.', explanation: 'Appositive set off with a comma.' },
+        { sentence: 'Langston Hughes a poet and playwright from Missouri wrote “Dream Deferred.”', answer: 'Langston Hughes, a poet and playwright from Missouri, wrote “Dream Deferred.”', explanation: 'Appositive set off with commas.' },
+        { sentence: 'My friend Brian plays the drums.', answer: 'My friend Brian plays the drums. (NC)', explanation: '"Brian" is a restrictive, one-word appositive right after "friend" — no comma needed.' },
+        { sentence: 'The head nurse Barbara instructs the aides.', answer: 'The head nurse Barbara instructs the aides. (NC)', explanation: 'Restrictive one-word appositive identifying which nurse — no comma needed.' },
+        { sentence: 'Some Chinese food is stir-fried in a wok a rounded metal pan.', answer: 'Some Chinese food is stir-fried in a wok, a rounded metal pan.', explanation: 'Appositive set off with a comma.' }
+      ]
+    },
+    {
+      title: 'Edit Note 5: Semicolons',
+      keyTerms: [],
+      rule: 'Join two closely related independent sentences with a semicolon (no conjunction). If the second clause has a conjunctive adverb (however, therefore, in fact, for example, etc.), use a semicolon before it and a comma after.',
+      examples: ['She stared intently at the stranger; all eyes followed her as she moved toward him.', 'At first, the painting was considered worthless; however, it recently sold for one million dollars.'],
+      practice: [
+        { sentence: 'The rain had finally stopped a few rays of sunshine were pushing their way through the clouds.', answer: 'The rain had finally stopped; a few rays of sunshine were pushing their way through the clouds.', explanation: 'Two closely related independent clauses, no conjunction — joined with a semicolon.' },
+        { sentence: 'Her answer was correct but your answer was far more interesting.', answer: 'Her answer was correct, but your answer was far more interesting.', explanation: 'Two independent clauses joined by the conjunction "but" — comma, not semicolon.' },
+        { sentence: 'Ted plays varsity baseball in college in fact he would like to try out for a major league team when he graduates.', answer: 'Ted plays varsity baseball in college; in fact, he would like to try out for a major league team when he graduates.', explanation: 'Conjunctive phrase "in fact" joins two independent clauses — semicolon before, comma after.' },
+        { sentence: 'The doctor closed the door he asked us to return to the waiting room.', answer: 'The doctor closed the door; he asked us to return to the waiting room.', explanation: 'Two independent clauses, no conjunction — semicolon.' },
+        { sentence: 'The snowstorm made traveling difficult therefore we arrived at our destination two hours later than scheduled.', answer: 'The snowstorm made traveling difficult; therefore, we arrived at our destination two hours later than scheduled.', explanation: 'Conjunctive adverb "therefore" — semicolon before, comma after.' },
+        { sentence: 'I lost my keys on the subway and Rebecca didn\'t have enough money for a taxi ride.', answer: 'I lost my keys on the subway, and Rebecca didn\'t have enough money for a taxi ride.', explanation: 'Two independent clauses joined by "and" — comma, not semicolon.' },
+        { sentence: 'The test was long and difficult however everyone in the class managed to finish it on time.', answer: 'The test was long and difficult; however, everyone in the class managed to finish it on time.', explanation: 'Conjunctive adverb "however" — semicolon before, comma after.' },
+        { sentence: 'This novel is a classic it has been read by students for over fifty years.', answer: 'This novel is a classic; it has been read by students for over fifty years.', explanation: 'Two independent clauses, no conjunction — semicolon.' },
+        { sentence: 'Jennifer always volunteers at the soup kitchen she finds the experience very rewarding.', answer: 'Jennifer always volunteers at the soup kitchen; she finds the experience very rewarding.', explanation: 'Two independent clauses, no conjunction — semicolon.' },
+        { sentence: 'The wind chill factor can make the air feel much colder than it actually is in fact sometimes a temperature of zero degrees can feel like fifty degrees below zero.', answer: 'The wind chill factor can make the air feel much colder than it actually is; in fact, sometimes a temperature of zero degrees can feel like fifty degrees below zero.', explanation: 'Conjunctive phrase "in fact" — semicolon before, comma after.' }
+      ]
+    },
+    {
+      title: 'Edit Note 6: Semicolons (Continued)',
+      keyTerms: [],
+      rule: 'Use a semicolon between main clauses joined by a conjunction if the clause before the conjunction already contains commas. Use a semicolon between items in a series if any items contain commas.',
+      examples: ['Henry will invite Jessica, Brianna, and Michael; and Doug will ask two of his friends.', 'The auctions will be held on Monday, September 10; Tuesday, September 11; and Friday, September 14.'],
+      practice: [
+        { sentence: 'We had canned soup canned beans and canned milk but no one had a can opener.', answer: 'We had canned soup, canned beans, and canned milk, but no one had a can opener.', explanation: 'A plain series (no internal commas within items) — commas only, no semicolons needed.' },
+        { sentence: 'The prize winners came from Cleveland Ohio from Austin Texas and from Queens New York.', answer: 'The prize winners came from Cleveland, Ohio; Austin, Texas; and Queens, New York.', explanation: 'Each item already contains a comma (city, state) — semicolons separate the items.' },
+        { sentence: 'The ancient Egyptians used vinegar as a food preservative a medicine and a cleaner and it is still used these ways today.', answer: 'The ancient Egyptians used vinegar as a food preservative, a medicine, and a cleaner, and it is still used these ways today.', explanation: 'Plain series plus a comma before the final "and" joining two independent clauses — commas only.' },
+        { sentence: 'Florida is called the Sunshine State California the Golden State and Louisiana the Pelican State.', answer: 'Florida is called the Sunshine State; California, the Golden State; and Louisiana, the Pelican State.', explanation: 'Each item already contains an internal comma — semicolons separate the items.' },
+        { sentence: 'Michelle Obama and Melania Trump are considered fashion icons but none compare to First Lady Jacqueline Kennedy Onassis.', answer: 'Michelle Obama and Melania Trump are considered fashion icons, but none compare to First Lady Jacqueline Kennedy Onassis.', explanation: 'Two independent clauses joined by "but" — comma.' },
+        { sentence: 'Mark used the proper tools read the instructions and worked slowly but the bicycle he put together fell apart in one week.', answer: 'Mark used the proper tools, read the instructions, and worked slowly, but the bicycle he put together fell apart in one week.', explanation: 'Plain series plus comma before "but" joining independent clauses.' },
+        { sentence: 'The turkey buzzard only looks something like a turkey it actually is a member of the vulture family.', answer: 'The turkey buzzard only looks something like a turkey; it actually is a member of the vulture family.', explanation: 'Two independent clauses, no conjunction, no internal commas — semicolon.' },
+        { sentence: 'The page contained ads for cases straps lenses and film but it did not contain an ad for cameras.', answer: 'The page contained ads for cases, straps, lenses, and film, but it did not contain an ad for cameras.', explanation: 'Plain series plus comma before "but."' },
+        { sentence: 'At 6:30 we watched the news at 7:30 we switched to our favorite comedy.', answer: 'At 6:30 we watched the news; at 7:30 we switched to our favorite comedy.', explanation: 'Two independent clauses, no conjunction — semicolon.' },
+        { sentence: 'The store was going out of business however they had not yet reduced their prices.', answer: 'The store was going out of business; however, they had not yet reduced their prices.', explanation: 'Conjunctive adverb "however" — semicolon before, comma after.' }
+      ]
+    },
+    {
+      title: 'Edit Note 7: Possessives',
+      keyTerms: [{ term: 'Singular noun', def: 'add an apostrophe and s (\'s). EX. doctor\'s, family\'s, James\'s (James\' is also acceptable)' }, { term: 'Plural noun not ending in “s”', def: 'add an apostrophe and s (\'s). EX. children\'s, men\'s, people\'s' }, { term: 'Plural noun ending in “s”', def: 'add only the apostrophe. EX. guitarists\', parents\', senators\'' }, { term: 'Joint ownership', def: 'only the last name mentioned gets the possessive form. EX. Mom and Dad’s idea' }, { term: 'Separate ownership', def: 'each name gets its own possessive form. EX. Spielberg’s and Lucas’s films' }],
+      rule: 'Choose the possessive ending based on whether the noun is singular, plural, and whether ownership is joint or separate.',
+      examples: [],
+      practice: [
+        { sentence: 'The son of Mr. Holland is Mr. ____ son.', answer: 'Mr. Holland\'s son', explanation: 'Singular noun — add \'s.' },
+        { sentence: 'The daughter of Mrs. Jones is Mrs. ____ daughter.', answer: 'Mrs. Jones\'s (or Jones\') daughter', explanation: 'Singular noun ending in s — add \'s (or just the apostrophe, both acceptable).' },
+        { sentence: 'The governor of Massachusetts is ____ governor.', answer: 'Massachusetts\'s (or Massachusetts\') governor', explanation: 'Singular noun ending in s — add \'s (or just the apostrophe).' },
+        { sentence: 'The dog of the neighbor is the ____ dog.', answer: 'neighbor\'s dog', explanation: 'Singular noun — add \'s.' },
+        { sentence: 'The dog of the neighbors is the ____ dog.', answer: 'neighbors\' dog', explanation: 'Plural noun ending in s — add only the apostrophe.' },
+        { sentence: 'The books of Bob and Ira (separate ownership) are ____ books.', answer: 'Bob\'s and Ira\'s books', explanation: 'Separate ownership — each name gets its own possessive form.' }
+      ]
+    },
+    {
+      title: 'Edit Note 8: Indefinite & Personal Pronouns',
+      keyTerms: [{ term: 'Indefinite pronoun', def: 'a pronoun that does not refer to any specific person, amount, or thing (e.g. anything, something, anyone, everyone).' }, { term: 'Personal pronouns', def: 'I, you, he, she, it, we, they, me, him, her, us, them' }],
+      rule: 'Use an apostrophe and s (\'s) to form the possessive of indefinite pronouns. Never use an apostrophe to form the possessive of a personal pronoun (its, hers, his, theirs, ours, yours).',
+      examples: ['Educating children is everybody\'s responsibility.', 'The dog hurt its paw. / The radio is hers.'],
+      practice: [
+        { sentence: 'I left the restaurant with someone elses coat.', answer: 'I left the restaurant with someone else\'s coat.', explanation: 'Indefinite pronoun "someone else" — add \'s.' },
+        { sentence: 'The decreasing demand for our product is nobodys fault.', answer: 'The decreasing demand for our product is nobody\'s fault.', explanation: 'Indefinite pronoun — add \'s.' },
+        { sentence: 'Its a shame that no one brought gifts to the party.', answer: 'It\'s a shame that no one brought gifts to the party.', explanation: 'This is the contraction "it is," not the possessive — needs an apostrophe.' },
+        { sentence: 'The plans for the new building didn\'t meet everyones approval.', answer: 'The plans for the new building didn\'t meet everyone\'s approval.', explanation: 'Indefinite pronoun — add \'s.' },
+        { sentence: 'It was somebodys suggestion to go to the movies.', answer: 'It was somebody\'s suggestion to go to the movies.', explanation: 'Indefinite pronoun — add \'s.' },
+        { sentence: 'The new puppy is hers, but her brother often takes care of it.', answer: 'The new puppy is hers, but her brother often takes care of it. (NC)', explanation: '"hers" is a personal pronoun — never takes an apostrophe.' },
+        { sentence: 'If you use anothers idea, you must give that person credit.', answer: 'If you use another\'s idea, you must give that person credit.', explanation: 'Indefinite pronoun — add \'s.' },
+        { sentence: 'Take anyones coat, but make sure you return it this evening.', answer: 'Take anyone\'s coat, but make sure you return it this evening.', explanation: 'Indefinite pronoun — add \'s.' },
+        { sentence: 'The bear left its cave in search of food.', answer: 'The bear left its cave in search of food. (NC)', explanation: '"its" is a personal (possessive) pronoun — never takes an apostrophe.' },
+        { sentence: 'The refurbished apartment is his.', answer: 'The refurbished apartment is his. (NC)', explanation: '"his" is a personal pronoun — never takes an apostrophe.' }
+      ]
+    },
+    {
+      title: 'Edit Note 9: Subject-Verb Agreement',
+      keyTerms: [{ term: 'Singular pronouns', def: 'each, either, neither, one, everyone, everybody, no one, nobody, anyone, anybody, someone, somebody' }, { term: 'Plural pronouns', def: 'several, few, both, many' }, { term: 'Either singular or plural', def: 'some, all, most, any, none — singular for a quantity, plural for a number of individual things' }],
+      rule: 'The subject and verb must agree in number. Determine whether the pronoun subject is singular or plural before choosing the verb form.',
+      examples: ['Some of the food was eaten. (quantity — singular)', 'Some of the apples were eaten. (number — plural)'],
+      practice: [
+        { sentence: 'Many of us actually (likes, like) long books.', answer: 'Many of us actually like long books.', explanation: '"Many" is a plural pronoun.' },
+        { sentence: 'Some of the children (seems, seem) shy.', answer: 'Some of the children seem shy.', explanation: '"Some" refers to a number of individual children here — plural.' },
+        { sentence: 'Somebody in the audience (was, were) snoring.', answer: 'Somebody in the audience was snoring.', explanation: '"Somebody" is a singular pronoun.' },
+        { sentence: 'Each of us (tries, try) to outdo the other.', answer: 'Each of us tries to outdo the other.', explanation: '"Each" is a singular pronoun.' },
+        { sentence: 'Either of these hats (suit, suits) you.', answer: 'Either of these hats suits you.', explanation: '"Either" is a singular pronoun.' },
+        { sentence: 'Few of the pies (was, were) left after the sale.', answer: 'Few of the pies were left after the sale.', explanation: '"Few" is a plural pronoun.' },
+        { sentence: 'Sometimes everyone in the office (works, work) late.', answer: 'Sometimes everyone in the office works late.', explanation: '"Everyone" is a singular pronoun.' },
+        { sentence: 'Neither the dress nor the hat (fit, fits).', answer: 'Neither the dress nor the hat fits.', explanation: '"Neither" is a singular pronoun.' },
+        { sentence: 'Each of the farmers (uses, use) new machinery.', answer: 'Each of the farmers uses new machinery.', explanation: '"Each" is a singular pronoun.' },
+        { sentence: 'Neither of the drivers (was, were) hurt in the accident.', answer: 'Neither of the drivers was hurt in the accident.', explanation: '"Neither" is a singular pronoun.' }
+      ]
+    },
+    {
+      title: 'Edit Note 10: Compound Subjects',
+      keyTerms: [],
+      rule: 'When a compound subject is joined by "and," the verb is plural. When joined by "or" or "nor," the verb agrees with the subject nearer the verb.',
+      examples: ['Mood, character, and plot are elements of the short story.', 'Neither the speaker nor the listeners were intimidated by the protesters.', 'Neither the listeners nor the speaker was intimidated by the protesters.'],
+      practice: [
+        { sentence: 'Either Rebecca or Raphael (have, has) taken your book back to the library.', answer: 'Either Rebecca or Raphael has taken your book back to the library.', explanation: 'Joined by "or" — verb agrees with the nearer subject, "Raphael" (singular).' },
+        { sentence: 'One of the movies (was, were) considered too sophisticated for children.', answer: 'One of the movies was considered too sophisticated for children.', explanation: '"One" is singular.' },
+        { sentence: 'Neither the students nor their teacher (wants, want) to miss the documentary film on mountain climbing.', answer: 'Neither the students nor their teacher wants to miss the documentary film on mountain climbing.', explanation: 'Joined by "nor" — verb agrees with the nearer subject, "teacher" (singular).' },
+        { sentence: 'Until now, every one of the attempts to restore Da Vinci’s painting The Last Supper (has, have) ended in failure.', answer: 'Until now, every one of the attempts to restore Da Vinci’s painting The Last Supper has ended in failure.', explanation: '"every one" is singular.' },
+        { sentence: 'Suntan lotion and mosquito repellent (is, are) in short supply at the local store.', answer: 'Suntan lotion and mosquito repellent are in short supply at the local store.', explanation: 'Compound subject joined by "and" — plural verb.' },
+        { sentence: 'Many of the member schools of the state athletic association (refuses, refuse) to abide by the new academic standards.', answer: 'Many of the member schools of the state athletic association refuse to abide by the new academic standards.', explanation: '"Many" is plural.' },
+        { sentence: 'Neither the class advisors nor the principal (is, are) going.', answer: 'Neither the class advisors nor the principal is going.', explanation: 'Joined by "nor" — verb agrees with the nearer subject, "principal" (singular).' },
+        { sentence: 'Few of the politicians (admit, admits) to accepting the donation.', answer: 'Few of the politicians admit to accepting the donation.', explanation: '"Few" is plural.' },
+        { sentence: 'The debate over the rule changes (has, have) apparently thrown the meeting into a deadlock.', answer: 'The debate over the rule changes has apparently thrown the meeting into a deadlock.', explanation: 'The subject is "debate," singular — not affected by the intervening phrase.' },
+        { sentence: 'The terms simile and metaphor (is, are) used in the study of poetry.', answer: 'The terms simile and metaphor are used in the study of poetry.', explanation: 'Compound subject joined by "and" — plural verb.' }
+      ]
+    }
+  ];

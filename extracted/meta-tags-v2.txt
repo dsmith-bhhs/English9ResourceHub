@@ -1,0 +1,147 @@
+  <meta name="ext-resource-dependency" content="uploads/covers/an-abundance-of-katherines.png" data-resource-id="res0" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-alchemist.jpg" data-resource-id="res1" />
+  <meta name="ext-resource-dependency" content="uploads/covers/all-the-light-we-cannot-see.png" data-resource-id="res2" />
+  <meta name="ext-resource-dependency" content="uploads/covers/allegiant.png" data-resource-id="res3" />
+  <meta name="ext-resource-dependency" content="uploads/covers/angels-and-demons.png" data-resource-id="res4" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-art-of-racing-in-the-rain.png" data-resource-id="res5" />
+  <meta name="ext-resource-dependency" content="uploads/covers/ashen-winter.png" data-resource-id="res6" />
+  <meta name="ext-resource-dependency" content="uploads/covers/ashfall.png" data-resource-id="res7" />
+  <meta name="ext-resource-dependency" content="uploads/covers/an-astronaut-s-guide-to-life-on-earth.png" data-resource-id="res8" />
+  <meta name="ext-resource-dependency" content="uploads/covers/atomic-habits.png" data-resource-id="res9" />
+  <meta name="ext-resource-dependency" content="uploads/covers/better-than-the-movies.jpg" data-resource-id="res10" />
+  <meta name="ext-resource-dependency" content="uploads/covers/big-mouth-and-ugly-girl.png" data-resource-id="res11" />
+  <meta name="ext-resource-dependency" content="uploads/covers/blindsided.jpg" data-resource-id="res12" />
+  <meta name="ext-resource-dependency" content="uploads/covers/blink-the-power-of-thinking-without-thinking.png" data-resource-id="res13" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-book-thief.jpg" data-resource-id="res14" />
+  <meta name="ext-resource-dependency" content="uploads/covers/bossypants.jpg" data-resource-id="res15" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-boy-in-the-striped-pyjamas.jpg" data-resource-id="res16" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-boys-in-the-boat.png" data-resource-id="res17" />
+  <meta name="ext-resource-dependency" content="uploads/covers/a-brief-history-of-time.png" data-resource-id="res18" />
+  <meta name="ext-resource-dependency" content="uploads/covers/bringing-down-the-house.png" data-resource-id="res19" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-children-of-willesden-lane.jpg" data-resource-id="res20" />
+  <meta name="ext-resource-dependency" content="uploads/covers/chinese-handcuffs.png" data-resource-id="res21" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-color-of-water.png" data-resource-id="res22" />
+  <meta name="ext-resource-dependency" content="uploads/covers/crazy-rich-asians.jpg" data-resource-id="res23" />
+  <meta name="ext-resource-dependency" content="uploads/covers/crooked-kingdom.jpg" data-resource-id="res24" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-curious-incident-of-the-dog-in-the-night-time.png" data-resource-id="res25" />
+  <meta name="ext-resource-dependency" content="uploads/covers/daisy-jones-the-six.png" data-resource-id="res26" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-darkest-minds.png" data-resource-id="res27" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-da-vinci-code.png" data-resource-id="res28" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-death-cure.png" data-resource-id="res29" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-devil-in-the-white-city.png" data-resource-id="res30" />
+  <meta name="ext-resource-dependency" content="uploads/covers/divergent.png" data-resource-id="res31" />
+  <meta name="ext-resource-dependency" content="uploads/covers/a-dog-s-purpose.png" data-resource-id="res32" />
+  <meta name="ext-resource-dependency" content="uploads/covers/dune.png" data-resource-id="res33" />
+  <meta name="ext-resource-dependency" content="uploads/covers/eleanor-and-park.png" data-resource-id="res34" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-element.png" data-resource-id="res35" />
+  <meta name="ext-resource-dependency" content="uploads/covers/endurance.png" data-resource-id="res36" />
+  <meta name="ext-resource-dependency" content="uploads/covers/everything-everything.jpg" data-resource-id="res37" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-5th-wave.png" data-resource-id="res38" />
+  <meta name="ext-resource-dependency" content="uploads/covers/five-feet-apart.jpg" data-resource-id="res39" />
+  <meta name="ext-resource-dependency" content="uploads/covers/freakonomics.png" data-resource-id="res40" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-future-of-us.jpg" data-resource-id="res41" />
+  <meta name="ext-resource-dependency" content="uploads/covers/a-good-girl-s-guide-to-murder.png" data-resource-id="res42" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-hate-u-give.jpg" data-resource-id="res43" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-help.png" data-resource-id="res44" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-hot-zone.png" data-resource-id="res45" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-hotel-on-the-corner-of-bitter-and-sweet.png" data-resource-id="res46" />
+  <meta name="ext-resource-dependency" content="uploads/covers/house-rules.png" data-resource-id="res47" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-hunger-games-complete-trilogy.png" data-resource-id="res48" />
+  <meta name="ext-resource-dependency" content="uploads/covers/i-am-malala.png" data-resource-id="res49" />
+  <meta name="ext-resource-dependency" content="uploads/covers/i-robot.png" data-resource-id="res50" />
+  <meta name="ext-resource-dependency" content="uploads/covers/if-he-had-been-with-me.jpg" data-resource-id="res51" />
+  <meta name="ext-resource-dependency" content="uploads/covers/if-i-stay.jpg" data-resource-id="res52" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-immortal-life-of-henrietta-lacks.jpg" data-resource-id="res53" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-infinite-sea.png" data-resource-id="res54" />
+  <meta name="ext-resource-dependency" content="uploads/covers/an-invisible-thread.jpg" data-resource-id="res55" />
+  <meta name="ext-resource-dependency" content="uploads/covers/in-real-life.png" data-resource-id="res56" />
+  <meta name="ext-resource-dependency" content="uploads/covers/into-thin-air.png" data-resource-id="res57" />
+  <meta name="ext-resource-dependency" content="uploads/covers/insurgent.png" data-resource-id="res58" />
+  <meta name="ext-resource-dependency" content="uploads/covers/ironman.png" data-resource-id="res59" />
+  <meta name="ext-resource-dependency" content="uploads/covers/it-s-kind-of-a-funny-story.png" data-resource-id="res60" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-kite-runner.png" data-resource-id="res61" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-last-shot-city-streets-basketball-dreams.png" data-resource-id="res62" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-last-star.png" data-resource-id="res63" />
+  <meta name="ext-resource-dependency" content="uploads/covers/life-of-pi.png" data-resource-id="res64" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-little-giant-of-aberdeen-county.png" data-resource-id="res65" />
+  <meta name="ext-resource-dependency" content="uploads/covers/lone-survivor.png" data-resource-id="res66" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-magicians.png" data-resource-id="res67" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-martian.png" data-resource-id="res68" />
+  <meta name="ext-resource-dependency" content="uploads/covers/matched-volume-1.png" data-resource-id="res69" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-maze-runner.png" data-resource-id="res70" />
+  <meta name="ext-resource-dependency" content="uploads/covers/memoirs-of-a-teenage-amnesiac.png" data-resource-id="res71" />
+  <meta name="ext-resource-dependency" content="uploads/covers/moneyball.jpg" data-resource-id="res72" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-mortal-instruments-series.png" data-resource-id="res73" />
+  <meta name="ext-resource-dependency" content="uploads/covers/mr-penumbra-s-24-hour-bookstore.png" data-resource-id="res74" />
+  <meta name="ext-resource-dependency" content="uploads/covers/my-sister-s-keeper.png" data-resource-id="res75" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-namesake.png" data-resource-id="res76" />
+  <meta name="ext-resource-dependency" content="uploads/covers/never-let-me-go.png" data-resource-id="res77" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-night-circus.png" data-resource-id="res78" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-nightingale.png" data-resource-id="res79" />
+  <meta name="ext-resource-dependency" content="uploads/covers/1984.jpg" data-resource-id="res80" />
+  <meta name="ext-resource-dependency" content="uploads/covers/on-the-devil-s-court.png" data-resource-id="res81" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-once-and-future-king.png" data-resource-id="res82" />
+  <meta name="ext-resource-dependency" content="uploads/covers/one-of-us-is-lying.jpg" data-resource-id="res83" />
+  <meta name="ext-resource-dependency" content="uploads/covers/orphan-train.png" data-resource-id="res84" />
+  <meta name="ext-resource-dependency" content="uploads/covers/outliers.jpg" data-resource-id="res85" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-overachievers-the-secret-lives-of-driven-kids.png" data-resource-id="res86" />
+  <meta name="ext-resource-dependency" content="uploads/covers/painting-the-black.png" data-resource-id="res87" />
+  <meta name="ext-resource-dependency" content="uploads/covers/paper-towns.png" data-resource-id="res88" />
+  <meta name="ext-resource-dependency" content="uploads/covers/paranoid-park.png" data-resource-id="res89" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-paris-wife.png" data-resource-id="res90" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-picture-of-dorian-gray.jpg" data-resource-id="res91" />
+  <meta name="ext-resource-dependency" content="uploads/covers/p-s-i-still-love-you.jpg" data-resource-id="res92" />
+  <meta name="ext-resource-dependency" content="uploads/covers/ranger-s-apprentice-series.png" data-resource-id="res93" />
+  <meta name="ext-resource-dependency" content="uploads/covers/ready-player-one.png" data-resource-id="res94" />
+  <meta name="ext-resource-dependency" content="uploads/covers/red-rising.jpg" data-resource-id="res95" />
+  <meta name="ext-resource-dependency" content="uploads/covers/rich-dad-poor-dad.png" data-resource-id="res96" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-road.png" data-resource-id="res97" />
+  <meta name="ext-resource-dependency" content="uploads/covers/room.png" data-resource-id="res98" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-rule-of-four.png" data-resource-id="res99" />
+  <meta name="ext-resource-dependency" content="uploads/covers/sarah-s-key.png" data-resource-id="res100" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-secret-life-of-bees.png" data-resource-id="res101" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-selection.png" data-resource-id="res102" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-seven-husbands-of-evelyn-hugo.png" data-resource-id="res103" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-scorch-trials.png" data-resource-id="res104" />
+  <meta name="ext-resource-dependency" content="uploads/covers/scythe.jpg" data-resource-id="res105" />
+  <meta name="ext-resource-dependency" content="uploads/covers/shadow-of-the-wind.png" data-resource-id="res106" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-silent-patient.jpg" data-resource-id="res107" />
+  <meta name="ext-resource-dependency" content="uploads/covers/six-of-crows.jpg" data-resource-id="res108" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-space-between-us.png" data-resource-id="res109" />
+  <meta name="ext-resource-dependency" content="uploads/covers/spy-high-mission-one.png" data-resource-id="res110" />
+  <meta name="ext-resource-dependency" content="uploads/covers/state-of-fear.png" data-resource-id="res111" />
+  <meta name="ext-resource-dependency" content="uploads/covers/st-lucy-s-home-for-girls-raised-by-wolves.png" data-resource-id="res112" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-summer-i-turned-pretty.png" data-resource-id="res113" />
+  <meta name="ext-resource-dependency" content="uploads/covers/sweetness-at-the-bottom-of-the-pie.png" data-resource-id="res114" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-tattooist-of-auschwitz.jpg" data-resource-id="res115" />
+  <meta name="ext-resource-dependency" content="uploads/covers/to-all-the-boys-i-ve-loved-before.jpg" data-resource-id="res116" />
+  <meta name="ext-resource-dependency" content="uploads/covers/turtles-all-the-way-down.jpg" data-resource-id="res117" />
+  <meta name="ext-resource-dependency" content="uploads/covers/two-can-keep-a-secret.jpg" data-resource-id="res118" />
+  <meta name="ext-resource-dependency" content="uploads/covers/unbroken.png" data-resource-id="res119" />
+  <meta name="ext-resource-dependency" content="uploads/covers/understanding-comics.png" data-resource-id="res120" />
+  <meta name="ext-resource-dependency" content="uploads/covers/a-visit-from-the-goon-squad.png" data-resource-id="res121" />
+  <meta name="ext-resource-dependency" content="uploads/covers/the-wal-mart-effect.png" data-resource-id="res122" />
+  <meta name="ext-resource-dependency" content="uploads/covers/watchmen.png" data-resource-id="res123" />
+  <meta name="ext-resource-dependency" content="uploads/covers/water-for-elephants.png" data-resource-id="res124" />
+  <meta name="ext-resource-dependency" content="uploads/covers/we-were-liars.jpg" data-resource-id="res125" />
+  <meta name="ext-resource-dependency" content="uploads/covers/what-is-the-what.png" data-resource-id="res126" />
+  <meta name="ext-resource-dependency" content="uploads/covers/where-the-crawdads-sing.png" data-resource-id="res127" />
+  <meta name="ext-resource-dependency" content="uploads/covers/where-you-go-is-not-who-you-ll-be.jpg" data-resource-id="res128" />
+  <meta name="ext-resource-dependency" content="uploads/covers/will-grayson-will-grayson.png" data-resource-id="res129" />
+  <meta name="ext-resource-dependency" content="uploads/covers/wonder.jpg" data-resource-id="res130" />
+  <meta name="ext-resource-dependency" content="uploads/Literary Terms-f57e67a5.pdf" data-resource-id="res131" />
+  <meta name="ext-resource-dependency" content="uploads/Summary Frame with Sentence Starters-8c06dfbf.pdf" data-resource-id="res132" />
+  <meta name="ext-resource-dependency" content="uploads/The Art of Summarizing-ff72426a.pdf" data-resource-id="res133" />
+  <meta name="ext-resource-dependency" content="uploads/They Say _ I Say Sentence Templates.pdf" data-resource-id="res134" />
+  <meta name="ext-resource-dependency" content="uploads/Expectations for Student Use of AI.pdf" data-resource-id="res135" />
+  <meta name="ext-resource-dependency" content="uploads/A Raisin in the Sun.pdf" data-resource-id="res136" />
+  <meta name="ext-resource-dependency" content="uploads/Lord of the Flies.pdf" data-resource-id="res137" />
+  <meta name="ext-resource-dependency" content="uploads/No Fear Shakespeare Macbeth.pdf" data-resource-id="res138" />
+  <meta name="ext-resource-dependency" content="uploads/Catcher in the Rye.pdf" data-resource-id="res139" />
+  <meta name="ext-resource-dependency" content="uploads/Everyday Use.pdf" data-resource-id="res140" />
+  <meta name="ext-resource-dependency" content="uploads/Lather and Nothing Else.pdf" data-resource-id="res141" />
+  <meta name="ext-resource-dependency" content="uploads/The Watch.pdf" data-resource-id="res142" />
+  <meta name="ext-resource-dependency" content="uploads/Grade 9 Edit Notes.pdf" data-resource-id="res143" />
+  <meta name="ext-resource-dependency" content="uploads/IR-Conference-Rubric.pdf" data-resource-id="res144" />
+  <meta name="ext-resource-dependency" content="uploads/Grade 9 Vocabulary.pdf" data-resource-id="res145" />
+  <meta name="ext-resource-dependency" content="uploads/Dead Men's Path.pdf" data-resource-id="res146" />

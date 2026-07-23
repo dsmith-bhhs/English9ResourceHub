@@ -1,0 +1,8 @@
+  artTemplates = ['In her essay X, she advocates a radical revision of the juvenile justice system.', 'They celebrate the fact that __________.', '__________, he admits.', 'X and Y, in their article __________, argue that __________. Their research, which demonstrates that __________, challenges the idea that __________. They use __________ to show __________. X and Y’s argument speaks to __________ about the larger issue of __________.'];
+  artVerbGroups = [
+    { group: 'Making a Claim', verbs: ['argue', 'assert', 'believe', 'claim', 'emphasize', 'insist', 'observe', 'remind us', 'report', 'suggest'] },
+    { group: 'Expressing Agreement', verbs: ['acknowledge', 'admire', 'admit', 'agree', 'celebrate', 'concede', 'corroborate', 'do not deny', 'endorse', 'extol', 'praise', 'reaffirm', 'support', 'verify'] },
+    { group: 'Questioning or Disagreeing', verbs: ['complain', 'complicate', 'contend', 'contradict', 'deny', 'deplore the tendency to', 'qualify', 'question', 'refute', 'reject', 'renounce', 'repudiate'] },
+    { group: 'Making Recommendations', verbs: ['advocate', 'call for', 'demand', 'encourage', 'exhort', 'implore', 'plead', 'recommend', 'urge', 'warn'] }
+  ];
+

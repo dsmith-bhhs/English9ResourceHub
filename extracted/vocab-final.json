@@ -1,0 +1,965 @@
+[
+  {
+    "listNum": 1,
+    "entries": [
+      {
+        "word": "venerable",
+        "pos": "adjective",
+        "definition": "worthy of respect because of advanced age, dignity, etc.",
+        "sentence": "At family reunions our venerable grandmother, now past eighty, is accorded great respect."
+      },
+      {
+        "word": "puerile",
+        "pos": "adjective",
+        "definition": "foolish for a grown person to say or do; childish",
+        "sentence": "Some seniors think it's fun to throw objects at passing cars, but I consider it puerile."
+      },
+      {
+        "word": "levity",
+        "pos": "noun",
+        "definition": "lack of proper seriousness; improper gaiety",
+        "sentence": "During the assembly George kept giggling; levity for which his teacherlater scolded him."
+      },
+      {
+        "word": "frugal",
+        "pos": "adjective",
+        "definition": "thrifty; not wasteful",
+        "sentence": "Her frugal attitude allowed her to save a good deal of money at the supermarket."
+      },
+      {
+        "word": "antipathy",
+        "pos": "noun",
+        "definition": "feeling of intense dislike",
+        "sentence": "Because of his bigoted remarks, the speaker provoked the antipathy of theaudience."
+      },
+      {
+        "word": "avocation",
+        "pos": "noun",
+        "definition": "a hobby; supplementary occupation",
+        "sentence": "Bird watching was an avocation thatgave him many hours of pleasure."
+      },
+      {
+        "word": "charlatan",
+        "pos": "noun",
+        "definition": "one who poses as an expert in a skill or profession for which he isnot qualified",
+        "sentence": "The Great Imposter is a movie about a charlatan who posed successfully as a surgeon."
+      },
+      {
+        "word": "doughty",
+        "pos": "adjective",
+        "definition": "brave; strong and able",
+        "sentence": "The doughty naval commander foughtagainst very heavy odds."
+      },
+      {
+        "word": "elucidate",
+        "pos": "verb",
+        "definition": "to make clear; explain",
+        "sentence": "You may elucidate what happened afteryou relax for a while."
+      },
+      {
+        "word": "indolent",
+        "pos": "adjective",
+        "definition": "lazy",
+        "sentence": "He was indolent by nature but still blamed the heat wave for his inabilityto do work."
+      }
+    ]
+  },
+  {
+    "listNum": 2,
+    "entries": [
+      {
+        "word": "ludicrous",
+        "pos": "adjective",
+        "definition": "causing laughter because absurd or ridiculous; laughably absurd",
+        "sentence": "His answer to the question was so ludicrous that everyone burst outlaughing."
+      },
+      {
+        "word": "callow",
+        "pos": "adjective",
+        "definition": "young and inexperienced; immature",
+        "sentence": "He was surprised when his companyhired a callow youth just out of college for the important new position."
+      },
+      {
+        "word": "blithe",
+        "pos": "adjective",
+        "definition": "merry; cheerful; happy",
+        "sentence": "Our neighbor is a blithe fellow whotells amusing stories."
+      },
+      {
+        "word": "nepotism",
+        "pos": "noun",
+        "definition": "favoritism shown to relatives, especially in securing jobs",
+        "sentence": "Whenever a President appoints a relative to a government position, the cry of nepotism is raised by theopposing party."
+      },
+      {
+        "word": "malign",
+        "pos": "verb",
+        "definition": "to speak evil of; toslander",
+        "sentence": "I cannot bear to hear you malign sucha good man."
+      },
+      {
+        "word": "posthumous",
+        "pos": "adjective",
+        "definition": "occurring after death; published after the author's death",
+        "sentence": "Only two of Emily Dickinson’s poemswere published before she died; the rest were posthumous."
+      },
+      {
+        "word": "heinous",
+        "pos": "adjective",
+        "definition": "outrageously evil orwicked",
+        "sentence": "The convict was severely punished forhis heinous crime."
+      },
+      {
+        "word": "clandestine",
+        "pos": "adjective",
+        "definition": "kept secret or hidden especially for someillegal purpose; secretive",
+        "sentence": "The clandestine activities of the terrorist group were never discoveredby the police."
+      },
+      {
+        "word": "refute",
+        "pos": "verb",
+        "definition": "to disprove or demonstrate the falsity ofsomething",
+        "sentence": "The district attorney summoned many witnesses to refute the testimony of thedefendant."
+      },
+      {
+        "word": "cursory",
+        "pos": "adjective",
+        "definition": "hasty, hurried or not thorough",
+        "sentence": "His cursory studying of the materialcould not give him a full understanding of the subject."
+      }
+    ]
+  },
+  {
+    "listNum": 3,
+    "entries": [
+      {
+        "word": "reticent",
+        "pos": "adjective",
+        "definition": "quiet, reserved, or uncommunicative",
+        "sentence": "Because she was so reticent, very fewpeople got to know her well."
+      },
+      {
+        "word": "travail",
+        "pos": "noun",
+        "definition": "hard work; exhausting labor; agony",
+        "sentence": "His family found that the travail ofserving ten years in a prison camp had changed him greatly."
+      },
+      {
+        "word": "opulence",
+        "pos": "noun",
+        "definition": "wealth, luxury, orabundance.",
+        "sentence": "She was amazed at the opulence of herneighbors."
+      },
+      {
+        "word": "arduous",
+        "pos": "adjective",
+        "definition": "difficult, strenuous, or hard to achieve",
+        "sentence": "Climbing the tree proved to be anarduous task but not a particularly dangerous one."
+      },
+      {
+        "word": "paltry",
+        "pos": "adjective",
+        "definition": "practically worthless; petty; trifling",
+        "sentence": "I complained not because of the paltrythree cents that I was overcharged but because of the principle of the thing."
+      },
+      {
+        "word": "abduct",
+        "pos": "verb",
+        "definition": "to carry off by force",
+        "sentence": "The kidnappers abducted the childfrom her home."
+      },
+      {
+        "word": "tractable",
+        "pos": "adjective",
+        "definition": "easily managed, taught, or controlled",
+        "sentence": "The horse was tractable as long as he was going in the direction of the barn; otherwise he was unmanageable."
+      },
+      {
+        "word": "obliterate",
+        "pos": "verb",
+        "definition": "to do away with or destroy; to blot outcompletely",
+        "sentence": "He tried to obliterate from his memory any trace of that horrible day."
+      },
+      {
+        "word": "prodigious",
+        "pos": "adjective",
+        "definition": "extraordinary in size oramount; enormous",
+        "sentence": "Anyone who has orbited the Earth hasperformed a prodigious task."
+      },
+      {
+        "word": "haughty",
+        "pos": "adjective",
+        "definition": "having or showing great pride in oneself and disdain, contempt, orscorn for others",
+        "sentence": "He seemed at first to be rather cold and haughty, but we came to realize that this was due mainly to his shyness."
+      }
+    ]
+  },
+  {
+    "listNum": 4,
+    "entries": [
+      {
+        "word": "equanimity",
+        "pos": "noun",
+        "definition": "Evenness of mind or temper; calmness; composure",
+        "sentence": "When one becomes engaged in an argument it is best to retain one’s equanimity in order to keep the disputefrom exploding into something bigger."
+      },
+      {
+        "word": "exacerbate",
+        "pos": "verb",
+        "definition": "To irritate or make bitter; to make more violent",
+        "sentence": "The line of questions so exacerbated the witness that he refused to answer."
+      },
+      {
+        "word": "gratuity",
+        "pos": "noun",
+        "definition": "A tip; payment for service for which no billis offered",
+        "sentence": "A gratuity of 10 to 15 percent of the check is customary in many restaurants."
+      },
+      {
+        "word": "incredulous",
+        "pos": "adjective",
+        "definition": "Skeptical; doubtful; too extraordinary to be believed",
+        "sentence": "The teacher was incredulous when he heard the amazing excuse."
+      },
+      {
+        "word": "loquacious",
+        "pos": "adjective",
+        "definition": "Talkative; chatty",
+        "sentence": "The lawyer’s loquacious summation annoyed his client, who could see thatthe jury was losing attention."
+      },
+      {
+        "word": "reprehensible",
+        "pos": "adjective",
+        "definition": "Deserving blame; wrong",
+        "sentence": "The man did not find the action of hisenemy as reprehensible as he thought he would."
+      },
+      {
+        "word": "stringent",
+        "pos": "adjective",
+        "definition": "Strict; rigid; exacting",
+        "sentence": "The Dean imposed a curfew of 7:00, the most stringent one in the history of the school."
+      },
+      {
+        "word": "taciturn",
+        "pos": "adjective",
+        "definition": "Habitually silent; notgiven to conversation",
+        "sentence": "John Wayne often portrays taciturn characters in his movies."
+      },
+      {
+        "word": "ubiquitous",
+        "pos": "adjective",
+        "definition": "Present everywhere",
+        "sentence": "The ubiquitous pizza parlors seem tobe feeding America."
+      },
+      {
+        "word": "vapid",
+        "pos": "adjective",
+        "definition": "Having lost its spirit or zest; spiritless",
+        "sentence": "The guest speaker made one of the most vapid speeches the audience hadever heard."
+      }
+    ]
+  },
+  {
+    "listNum": 5,
+    "entries": [
+      {
+        "word": "meticulous",
+        "pos": "adjective",
+        "definition": "Overly or unduly careful about small details; extremely careful",
+        "sentence": "She was extremely meticulous about her clothes and spent hours dressingfor a party."
+      },
+      {
+        "word": "altruism (altruist)",
+        "pos": "noun",
+        "definition": "Unselfish concern for the welfare of others; selflessness",
+        "sentence": "Altruism is a virtue that very few people possess."
+      },
+      {
+        "word": "ameliorate",
+        "pos": "verb",
+        "definition": "To improve or make better",
+        "sentence": "Despite the Mayor's best efforts, hecould not ameliorate the situation in the ghetto."
+      },
+      {
+        "word": "rustic",
+        "pos": "adjective",
+        "definition": "Characteristic of the country and country people; simple and unsophisticated",
+        "sentence": "His rustic manners seemed out of place in the elegant setting of the hotel dining room."
+      },
+      {
+        "word": "deride",
+        "pos": "verb",
+        "definition": "To make fun of; to scorn",
+        "sentence": "The teacher told the obnoxious studentnot to deride his fellow classmates."
+      },
+      {
+        "word": "diffident",
+        "pos": "adjective",
+        "definition": "Lacking self confidence; timid; shy",
+        "sentence": "We discovered that beneath hisdiffident Personality there was an active and inquiring mind."
+      },
+      {
+        "word": "ostracize",
+        "pos": "verb",
+        "definition": "To exclude someone from a social group by general consent",
+        "sentence": "Although he was found innocent of treason, Aaron Burr was ostracized by society and left this country to live in England."
+      },
+      {
+        "word": "truculent",
+        "pos": "adjective",
+        "definition": "Savage; cruel; fierce; warlike",
+        "sentence": "The debate, which might have beenvery interesting, was marred by a truculent exchange of personal abuse."
+      },
+      {
+        "word": "vindicate",
+        "pos": "verb",
+        "definition": "To clear of suspicion, asof a charge of wrongdoing",
+        "sentence": "Since he has been fully vindicated bythe investigation, he will resume his old position in the government."
+      },
+      {
+        "word": "pugnacious",
+        "pos": "adjective",
+        "definition": "Eager and ready to fight; quarrelsome",
+        "sentence": "He became much less pugnacious afterhe picked fights with boys who gave him sound beatings."
+      }
+    ]
+  },
+  {
+    "listNum": 6,
+    "entries": [
+      {
+        "word": "forbidding",
+        "pos": "adjective",
+        "definition": "looking dangerous, threatening, disagreeable, repellent",
+        "sentence": "The glow from the distant lighthouse cast a forbidding hue over the ocean."
+      },
+      {
+        "word": "inane",
+        "pos": "adjective",
+        "definition": "foolish, silly, lacking sense or meaning",
+        "sentence": "We were trying not to sound inane aswe spoke to the art historian, but we really knew nothing about the subject."
+      },
+      {
+        "word": "inure",
+        "pos": "verb",
+        "definition": "to become accustomed to something, difficult, painful, etc.",
+        "sentence": "I never became inured to running in the early morning."
+      },
+      {
+        "word": "anarchy",
+        "pos": "noun",
+        "definition": "the complete absence of government, political disorder or violence, disorder in any activity",
+        "sentence": "“If he gets up, we’ll all get up. It’ll be anarchy,” is a famous line from The Breakfast Club."
+      },
+      {
+        "word": "enmity",
+        "pos": "noun",
+        "definition": "hostility, antagonism, hatred; the bitter feelingsof an enemy",
+        "sentence": "Many Americans cannot help but feel enmity toward Osama Bin Laden and his terrorist network."
+      },
+      {
+        "word": "sinecure",
+        "pos": "noun",
+        "definition": "any office or position that brings profit or advantage without involving muchwork or responsibility",
+        "sentence": "No one would ever need to retire from a job that is a sinecure."
+      },
+      {
+        "word": "tacit",
+        "pos": "adjective",
+        "definition": "not expressed or declared openly, but implied or understood",
+        "sentence": "Her nod was enough tacit approval for me to understand her message."
+      },
+      {
+        "word": "inveigle",
+        "pos": "verb",
+        "definition": "to trick into doing something, to lead onwith deception",
+        "sentence": "The salesman had a reputation for inveigling his customers into buying things they did not intend to buy."
+      },
+      {
+        "word": "anachronism",
+        "pos": "noun",
+        "definition": "anything that is or seemsto be out of its proper time in history",
+        "sentence": "For a girl to call her boyfriend her “beau” is anachronistic in 2011."
+      },
+      {
+        "word": "avarice",
+        "pos": "noun",
+        "definition": "too great a desire to have wealth; greed for riches",
+        "sentence": "His avarice increased with age, until it became an uncontrollable obsessionfor wealth."
+      }
+    ]
+  },
+  {
+    "listNum": 7,
+    "entries": [
+      {
+        "word": "condone",
+        "pos": "verb",
+        "definition": "to excuse, forgive, or pardon; to overlook anoffense",
+        "sentence": "His behavior was so outrageous that I cannot see how anyone could even tryto condone it."
+      },
+      {
+        "word": "hackneyed",
+        "pos": "adjective",
+        "definition": "made trite and commonplace by overuse; stale",
+        "sentence": "His writing style is weakened by repeated use of hackneyed phrases."
+      },
+      {
+        "word": "imperative",
+        "pos": "adjective",
+        "definition": "required; absolutely necessary; compulsory",
+        "sentence": "It is imperative that you submit your application before May 1."
+      },
+      {
+        "word": "mundane",
+        "pos": "adjective",
+        "definition": "worldly, (as distinguished from heavenly); commonplace",
+        "sentence": "Now that we have discussed all those profound philosophical problems, let's get down to the mundane job ofpreparing dinner."
+      },
+      {
+        "word": "placid",
+        "pos": "adjective",
+        "definition": "calm; peaceful; undisturbed",
+        "sentence": "Although the scene was still placid, I knew that before long we were in forsome wild excitement."
+      },
+      {
+        "word": "spurious",
+        "pos": "adjective",
+        "definition": "not genuine or true; lacking in authenticity; fake",
+        "sentence": "The document on which we hadintended to base our case turned out to be spurious--a crude counterfeit."
+      },
+      {
+        "word": "stealthy",
+        "pos": "adjective",
+        "definition": "marked by secrecy or concealment; furtive; sly",
+        "sentence": "Creeping stealthily, through theunderbrush, the soldiers approached their enemies."
+      },
+      {
+        "word": "urbane",
+        "pos": "adjective",
+        "definition": "refined; polite andcourteous in a smooth, polished way; suave",
+        "sentence": "I admired the urbane ease with which he handled the difficult situation."
+      },
+      {
+        "word": "pariah",
+        "pos": "noun",
+        "definition": "a social outcast; one despised by society",
+        "sentence": "In Lord of the Flies, Piggy quickly became the pariah of the small societythat formed on the island."
+      },
+      {
+        "word": "desecrate",
+        "pos": "verb",
+        "definition": "to violate the sacredness of something; to profane; to treat as if not sacred",
+        "sentence": "Vandals had desecrated the church by carving their initials on the largewooden doors."
+      }
+    ]
+  },
+  {
+    "listNum": 8,
+    "entries": [
+      {
+        "word": "vociferous",
+        "pos": "adjective",
+        "definition": "loud, noisy, or vehement in making one's feelingsknown",
+        "sentence": "The judge ordered the vociferous spectator to be thrown out of the courtroom"
+      },
+      {
+        "word": "euphemism",
+        "pos": "noun",
+        "definition": "a mild or pleasant expression substituted forone that is harsh or blunt",
+        "sentence": "Instead of calling Meredith \"fat,\" hetactfully employed the euphemism \"pleasingly plump.\""
+      },
+      {
+        "word": "dearth",
+        "pos": "noun",
+        "definition": "a scarcity or lack; too small a supply or shortage",
+        "sentence": "When the crops failed, there was adearth of grain for flour, and bread prices skyrocketed."
+      },
+      {
+        "word": "harbinger",
+        "pos": "noun",
+        "definition": "a person or thing that comes before to announce or give an indication ofwhat is to follow",
+        "sentence": "The first robin is a well-known harbinger of spring. The first vulture circling is a harbinger of something else."
+      },
+      {
+        "word": "irate",
+        "pos": "adjective",
+        "definition": "angry, wrathful, incensed",
+        "sentence": "He is usually even-tempered, but he becomes irate when he encounters rudeness."
+      },
+      {
+        "word": "pinnacle",
+        "pos": "noun",
+        "definition": "the highest point, peak; culmination",
+        "sentence": "At the very pinnacle of success, he enjoyed wealth, admiration from others, and widespread affection."
+      },
+      {
+        "word": "recalcitrant",
+        "pos": "adjective",
+        "definition": "stubbornly disobedient or rebellious; hard to handle; unruly",
+        "sentence": "We cannot allow one recalcitrant student to disrupt the work of the entire class."
+      },
+      {
+        "word": "squalid",
+        "pos": "adjective",
+        "definition": "dirty from neglect; wretched",
+        "sentence": "Jakob Riis photographed the awful living conditions in the squalid tenements of New York."
+      },
+      {
+        "word": "nebulous",
+        "pos": "adjective",
+        "definition": "unclear; vague; cloudy, misty",
+        "sentence": "His ideas were so nebulous that no one could agree or disagree with him."
+      },
+      {
+        "word": "decry",
+        "pos": "verb",
+        "definition": "to speak out against strongly and openly; todenounce",
+        "sentence": "The graduation speaker decried the tendency of too many Americans to seek wealth before all else."
+      }
+    ]
+  },
+  {
+    "listNum": 9,
+    "entries": [
+      {
+        "word": "extol",
+        "pos": "verb",
+        "definition": "to praise highly; to laud",
+        "sentence": "The speaker extolled the doctor for hisgreat contributions to mankind."
+      },
+      {
+        "word": "innate",
+        "pos": "adjective",
+        "definition": "that which seems to be with someone from birth; existing naturally ratherthan acquired",
+        "sentence": "His good taste and courtesy are not the result of training but rather are innate."
+      },
+      {
+        "word": "enigma",
+        "pos": "noun",
+        "definition": "a perplexing or seemingly unexplainable matter orperson",
+        "sentence": "The many aspects of his changing personality make Tom an enigma to me."
+      },
+      {
+        "word": "rancor",
+        "pos": "noun",
+        "definition": "a continuing and bitterhate or ill will; deep spite and malice.",
+        "sentence": "Unfortunately, the debate between them was marked by personal rancor ratherthan honest discussion of the issues."
+      },
+      {
+        "word": "invective",
+        "pos": "noun",
+        "definition": "a violent verbal attack; strong criticism, insultcurses, etc.",
+        "sentence": "It is possible to wage a hard-hitting political campaign without resorting tothe use of invectives."
+      },
+      {
+        "word": "acumen",
+        "pos": "noun",
+        "definition": "keenness and quickness in understanding and dealing with a situation; shrewdness",
+        "sentence": "In the 19th century, many fortunes were made by men with great business acumen."
+      },
+      {
+        "word": "obdurate",
+        "pos": "adjective",
+        "definition": "not easily moved to pity or sympathy; hard- hearted, stubborn orobstinate",
+        "sentence": "In spite of all our efforts to persuade him, he remained obdurate."
+      },
+      {
+        "word": "pragmatic",
+        "pos": "adjective",
+        "definition": "practical; concerned with actual, everyday things rather than with theory orspeculation",
+        "sentence": "Rather than listening to the politicians explain the theories of poverty, he had the pragmatic problem of getting foodon the table."
+      },
+      {
+        "word": "audacious",
+        "pos": "adjective",
+        "definition": "fearlessly daring; bold; arrogantly insolent",
+        "sentence": "In this time of crisis, we need imaginative, bold and even audacious leadership."
+      },
+      {
+        "word": "banal",
+        "pos": "adjective",
+        "definition": "common, unoriginal, drearily predictable",
+        "sentence": "The lecturer’s banal comments boredthe audience to tears."
+      }
+    ]
+  },
+  {
+    "listNum": 10,
+    "entries": [
+      {
+        "word": "culpable",
+        "pos": "adjective",
+        "definition": "Responsible for doing something wrong; deserving blame; guilty",
+        "sentence": "Anyone who took any part in the conspiracy was considered equally culpable."
+      },
+      {
+        "word": "ignominious",
+        "pos": "adjective",
+        "definition": "Deserving disgrace or shame; dishonorable; despicable",
+        "sentence": "The traitor spent the last years of his life in ignominious exile."
+      },
+      {
+        "word": "ostentatious",
+        "pos": "adjective",
+        "definition": "showing off boastfully; boastful",
+        "sentence": "The man displayed his expensive newsuit in a very ostentatious manner."
+      },
+      {
+        "word": "vicissitudes",
+        "pos": "noun",
+        "definition": "changes in fortune; ups and downs in circumstances",
+        "sentence": "You must learn to face the many vicissitudes of life."
+      },
+      {
+        "word": "alacrity",
+        "pos": "noun",
+        "definition": "cheerful willingness or eagerness",
+        "sentence": "Since Bob needed a job to pay for his college expenses, he accepted withalacrity the offer."
+      },
+      {
+        "word": "decadent",
+        "pos": "adjective",
+        "definition": "in a state of decline or decay; deteriorating",
+        "sentence": "When people lose interest in literature, it's a sign that the society is becoming decadent."
+      },
+      {
+        "word": "garrulous",
+        "pos": "adjective",
+        "definition": "Talkative",
+        "sentence": "The garrulous cab driver kept up a steady stream of chatter."
+      },
+      {
+        "word": "temerity",
+        "pos": "noun",
+        "definition": "Reckless, boldness; foolish disregard for danger",
+        "sentence": "In 1941, Japanese militarists had the temerity to risk the future of their country on the wild gamble of aknockout blow on Pearl Harbor."
+      },
+      {
+        "word": "eclectic",
+        "pos": "adjective",
+        "definition": "composed of materials gained from many sources, systems, etc.",
+        "sentence": "The statesman did no believe in only one political philosophy, but rather took a more eclectic view of worldaffairs."
+      },
+      {
+        "word": "anathema",
+        "pos": "noun",
+        "definition": "a thing or person accursed or damned; a thing or person greatly detested; a formal curse",
+        "sentence": "After almost 200 years, the name of Benedict Arnold is still anathema to Americans."
+      }
+    ]
+  },
+  {
+    "listNum": 11,
+    "entries": [
+      {
+        "word": "magnanimous",
+        "pos": "adjective",
+        "definition": "noble in mind; high-souled; generous in overlooking injury or insult; rising above pettiness ormeanness",
+        "sentence": "Churchill emphasized that we should be firm in war, defiant in defeat, and magnanimous in victory."
+      },
+      {
+        "word": "misanthrope",
+        "pos": "noun",
+        "definition": "a person who hates or mistrusts all people",
+        "sentence": "Because of his hateful stares and habitual silence, the man had the reputation of being a misanthrope."
+      },
+      {
+        "word": "parsimonious",
+        "pos": "adjective",
+        "definition": "unreasonably cheap or stingy",
+        "sentence": "He had become so accustomed to a parsimonious way of living that he deniedhimself even the simplest comforts."
+      },
+      {
+        "word": "pundit",
+        "pos": "noun",
+        "definition": "a person who has or professes to have great learning; actual or self-professed authority",
+        "sentence": "During the week of the Super Bowl, many so-called pundits are always telling you in advance which team will win the game."
+      },
+      {
+        "word": "officious",
+        "pos": "adjective",
+        "definition": "offering unnecessary or unwanted advice or services; meddlesome, especially in an overbearing way",
+        "sentence": "To disguise the fact that he was performing no useful function, he developed an officious manner ofintruding into everyone else’s work"
+      },
+      {
+        "word": "intrepid",
+        "pos": "adjective",
+        "definition": "bold; fearless; dauntless; very brave",
+        "sentence": "All honors should go to the intrepid andhighly trained men who are exploring outer space."
+      },
+      {
+        "word": "lugubrious",
+        "pos": "adjective",
+        "definition": "very sad or mournful, especially in a way that seems exaggerated orridiculous",
+        "sentence": "His lugubrious expression was intended to suggest that he, more than anyone else, understood the sadness of the occasion."
+      },
+      {
+        "word": "esoteric",
+        "pos": "adjective",
+        "definition": "intended for or understood by only a chosen few beyond the knowledge and understanding of mostpeople",
+        "sentence": "The lecture was too esoteric to be appreciated by most people in the audience."
+      },
+      {
+        "word": "imperious",
+        "pos": "adjective",
+        "definition": "arrogant; haughty; seeking to dominate; overbearing",
+        "sentence": "He is so inflated with the sense of his ownimportance that he adopts an imperious manner toward his subordinates."
+      },
+      {
+        "word": "poignant",
+        "pos": "adjective",
+        "definition": "distressing to the feelings; touching; appealing to the emotions; affecting",
+        "sentence": "Who can remain unmoved by thepoignant scene in which Sidney Carton sacrifices his life for the woman he loves."
+      }
+    ]
+  },
+  {
+    "listNum": 12,
+    "entries": [
+      {
+        "word": "repugnant",
+        "pos": "adjective",
+        "definition": "distasteful; offensive; repulsive",
+        "sentence": "I find his horrible manners utterly repugnant."
+      },
+      {
+        "word": "tacit",
+        "pos": "adjective",
+        "definition": "implied but not expressed",
+        "sentence": "Since mother raised no objection to myidea, I assumed that I had her tacit consent to go ahead with the plan."
+      },
+      {
+        "word": "vicarious",
+        "pos": "adjective",
+        "definition": "involving sympathetic participation by aperson in the experiences of another; experienced or endured or enjoyed through imaginative participation in the experiences of another",
+        "sentence": "Having been too frail to participate in competitive sports, he took vicarious pleasure in his younger brother's football heroics."
+      },
+      {
+        "word": "prevaricate",
+        "pos": "verb",
+        "definition": "to evade or conceal the truth; to deviate from the truth; to lie",
+        "sentence": "Although you may be tempted to prevaricate, in the long run it will be better off if you own up to what youdid."
+      },
+      {
+        "word": "supercilious",
+        "pos": "adjective",
+        "definition": "contemptuously proud; haughty; disdainful",
+        "sentence": "In spite of his supercilious attitude, Irefuse to concede that he is our social superior."
+      },
+      {
+        "word": "enervate",
+        "pos": "verb",
+        "definition": "to weaken; to deprive offorce",
+        "sentence": "The long stretch of hot, humid weather enervated all of us."
+      },
+      {
+        "word": "plethora",
+        "pos": "noun",
+        "definition": "an excess; an overabundance",
+        "sentence": "The boy has a plethora of energy and inventiveness, which he sometimes directs into mischief."
+      },
+      {
+        "word": "prototype",
+        "pos": "noun",
+        "definition": "an original that serves as a model on which later stages are based or judged; an early andtypical example",
+        "sentence": "Salinger's brilliant Catcher in the Rye has served as the prototype for many novels about confused teenagers."
+      },
+      {
+        "word": "askew",
+        "pos": "adverb",
+        "definition": "to one side; crookedly",
+        "sentence": "In my efforts to straighten the picture, I knocked the lampshade askew."
+      },
+      {
+        "word": "abrogate",
+        "pos": "verb",
+        "definition": "to cancel or repeal by authority; to annul",
+        "sentence": "Since the treaty had proved unworkable, the two nations decided to abrogate it."
+      }
+    ]
+  },
+  {
+    "listNum": 13,
+    "entries": [
+      {
+        "word": "bequeath",
+        "pos": "verb",
+        "definition": "to leave to another in a will; to hand down",
+        "sentence": "My father bequeathed to his children a little money and the glorious example of a life well spent in the service of hiscountry."
+      },
+      {
+        "word": "laud",
+        "pos": "verb",
+        "definition": "to praise highly",
+        "sentence": "At the testimonial dinner, he was lauded by community leaders for hisservice to the school."
+      },
+      {
+        "word": "crass",
+        "pos": "adjective",
+        "definition": "grossly stupid or dull; coarse",
+        "sentence": "His attempts to argue about a subjectfar beyond his depth seemed only to reveal his crass ignorance and conceit."
+      },
+      {
+        "word": "complacent",
+        "pos": "adjective",
+        "definition": "smug; self satisfied; pleased with oneself",
+        "sentence": "He had the complacent attitude of a man who considers himself superior tothe \"common herd.\""
+      },
+      {
+        "word": "tribulation",
+        "pos": "noun",
+        "definition": "great misery or distress; great trouble",
+        "sentence": "The tribulations which he suffered and overcame have made him a wiser, more compassionate person."
+      },
+      {
+        "word": "cajole",
+        "pos": "verb",
+        "definition": "to coax or persuade with insincere or falsewords; to wheedle",
+        "sentence": "Using rather far-fetched promises, I finally cajoled her into accompanying us tothe fair"
+      },
+      {
+        "word": "chagrin",
+        "pos": "noun",
+        "definition": "mental distress due to disappointment orhumiliation",
+        "sentence": "When he did not receive an invitation, he tried unsuccessfully to conceal hisdeep-seated chagrin."
+      },
+      {
+        "word": "docile",
+        "pos": "adjective",
+        "definition": "easily taught; responsive; tractable",
+        "sentence": "Since I expected him to be unruly, Iwas pleasantly surprised by his gentle, docile behavior."
+      },
+      {
+        "word": "vacillate",
+        "pos": "verb",
+        "definition": "to waver in mind or opinion",
+        "sentence": "When you have considered all the factors carefully and have decidedwhat is right, act without vacillating."
+      },
+      {
+        "word": "sage",
+        "pos": "adjective",
+        "definition": "marked by wisdom andgood judgment",
+        "sentence": "His sage advice has helped thousandsof people deal with their problems."
+      }
+    ]
+  },
+  {
+    "listNum": 14,
+    "entries": [
+      {
+        "word": "dupe",
+        "pos": "verb",
+        "definition": "to deceive",
+        "sentence": "Only an inexperienced and naive person could be duped into investing money in such a hairbrained scheme."
+      },
+      {
+        "word": "acme",
+        "pos": "noun",
+        "definition": "highest point; pinnacle",
+        "sentence": "Election to the Presidency was theacme of his long and brilliant career."
+      },
+      {
+        "word": "deter",
+        "pos": "verb",
+        "definition": "to restrain or discourage from action through fear",
+        "sentence": "Once he had decided where his dutylay, nothing could deter him."
+      },
+      {
+        "word": "homily",
+        "pos": "noun",
+        "definition": "a sermon; a discourse emphasizing moral principles",
+        "sentence": "Instead of those high-flown homilies, we need some good practical plans."
+      },
+      {
+        "word": "epicure",
+        "pos": "noun",
+        "definition": "one who cultivates refined tastes, especially in eatingand drinking",
+        "sentence": "The store specializes in delicacies thatwill please even the most demanding epicures."
+      },
+      {
+        "word": "surfeit",
+        "pos": "noun",
+        "definition": "excessive amount",
+        "sentence": "I have had my surfeit of excuses andevasions; I want action!"
+      },
+      {
+        "word": "itinerant",
+        "pos": "adjective",
+        "definition": "traveling from place to place",
+        "sentence": "Peter became an itinerant folk singer, traveling to college campuses all overthe land."
+      },
+      {
+        "word": "cache",
+        "pos": "noun",
+        "definition": "a hiding place",
+        "sentence": "The conspirators had set up a cache offirearms in the old farmhouse."
+      },
+      {
+        "word": "incite",
+        "pos": "verb",
+        "definition": "to instigate; to spur on",
+        "sentence": "Only intolerable living conditions couldhave incited the peasants to rebellion."
+      },
+      {
+        "word": "appease",
+        "pos": "verb",
+        "definition": "to bring to a state of peace or quiet; to satisfy by making concessions orgiving in to",
+        "sentence": "The tyrant can be appeased only by absolute submission to his will."
+      }
+    ]
+  },
+  {
+    "listNum": 15,
+    "entries": [
+      {
+        "word": "impetuous",
+        "pos": "adjective",
+        "definition": "impulsive; done hastily or rashly",
+        "sentence": "Because he is impetuous by nature, John often has cause to regret his rashactions."
+      },
+      {
+        "word": "perfidy",
+        "pos": "noun",
+        "definition": "treachery; breach of trust or faith",
+        "sentence": "Because he betrayed our country, Benedict Arnold's name has become asymbol of perfidy in American history."
+      },
+      {
+        "word": "hovel",
+        "pos": "noun",
+        "definition": "a dirty, wretched dwelling place",
+        "sentence": "It is shocking that the families of the migratory workers had to live in suchhovels."
+      },
+      {
+        "word": "advent",
+        "pos": "noun",
+        "definition": "coming into view orbeing; arrival",
+        "sentence": "The advent of winter brings thoughts ofsleds, ice-skates, and skis."
+      },
+      {
+        "word": "indigent",
+        "pos": "adjective",
+        "definition": "needy; poor",
+        "sentence": "The purpose of this new program is tohelp those indigent people who can't help themselves."
+      },
+      {
+        "word": "effrontery",
+        "pos": "noun",
+        "definition": "impudence; shameless boldness",
+        "sentence": "How does he have the effrontery to askme for help when he ignored my requests during my time of need."
+      },
+      {
+        "word": "rectify",
+        "pos": "verb",
+        "definition": "to correct; to set right",
+        "sentence": "It is good to rectify a mistake; it isbetter not to make it in the first place."
+      },
+      {
+        "word": "amass",
+        "pos": "verb",
+        "definition": "to accumulate; to gather together",
+        "sentence": "By saving systematically over the years, he amassed a large fortune."
+      }
+    ]
+  }
+]
