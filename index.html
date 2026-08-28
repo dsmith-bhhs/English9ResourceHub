@@ -636,6 +636,58 @@
       </div>
     </sc-if>
 
+    <sc-if value="{{ isJournal }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div style="background:#fff;border-radius:12px;padding:20px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:8px;">
+          <h2 style="font-family:'Lora',serif;font-size:20px;font-weight:700;color:#002855;margin:0;">Journaling</h2>
+          <p style="font-size:13px;color:#475569;line-height:1.6;margin:0;max-width:70ch;">Two ways in. Spin the randomizer for a quick personal-writing prompt, or choose a reader-response angle to write about the book you are reading right now.</p>
+        </div>
+
+        <div style="background:linear-gradient(135deg,#002855 0%,#123a6b 100%);border-radius:12px;padding:28px 24px;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;">
+          <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.14em;color:#fcd34d;">Random Journal Prompt</span>
+          <p style="font-family:'Lora',serif;font-size:24px;line-height:1.45;color:#fff;margin:0;max-width:44ch;text-wrap:pretty;">{{ journalPromptText }}</p>
+          <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:center;">
+            <button onClick="{{ onNewPrompt }}" style="padding:11px 22px;background:#9C1918;color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:9px;" style-hover="background:#b91c1c;"><i class="fa-solid fa-shuffle" style="font-size:12px;"></i> New Prompt</button>
+            <span style="font-size:11px;color:#94a3b8;font-family:monospace;">{{ journalPromptNumber }}</span>
+          </div>
+        </div>
+
+        <div style="background:#fff;border-radius:12px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);overflow:hidden;">
+          <div style="padding:14px 18px;background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+            <h3 style="font-family:'Lora',serif;font-size:16px;font-weight:700;color:#002855;margin:0;display:flex;align-items:center;gap:9px;"><i class="fa-solid fa-book-open" style="color:#9C1918;font-size:14px;"></i> Reader-Response Journal Prompts</h3>
+          </div>
+          <div style="padding:14px 18px;background:#fffbeb;border-bottom:1px solid #fde68a;display:flex;gap:11px;align-items:flex-start;">
+            <i class="fa-solid fa-lightbulb" style="color:#b45309;font-size:13px;margin-top:2px;flex-shrink:0;"></i>
+            <p style="font-size:12.5px;color:#78350f;line-height:1.6;margin:0;max-width:80ch;text-wrap:pretty;">A reader-response journal is a personal writing tool that records a reader's thoughts, questions, and reactions to a text. Its value lies in how it deepens engagement, strengthens comprehension, and supports critical thinking.</p>
+          </div>
+          <div style="padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px;">
+            <sc-for list="{{ readerResponseCatsList }}" as="cat" hint-placeholder-count="6">
+              <div style="border:1px solid #e2e8f0;border-radius:9px;overflow:hidden;">
+                <button onClick="{{ cat.onToggle }}" style="width:100%;text-align:left;padding:12px 14px;background:{{ cat.headerBg }};border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;">
+                  <span style="display:flex;align-items:center;gap:10px;">
+                    <span style="width:28px;height:28px;border-radius:7px;background:{{ cat.accent }};color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;"><i class="{{ cat.icon }}"></i></span>
+                    <span style="font-size:13.5px;font-weight:700;color:#002855;">{{ cat.label }}</span>
+                    <span style="font-size:10px;color:#94a3b8;font-family:monospace;">{{ cat.countLabel }}</span>
+                  </span>
+                  <i class="{{ cat.chevronClass }}" style="font-size:11px;color:#64748b;"></i>
+                </button>
+                <sc-if value="{{ cat.isOpen }}" hint-placeholder-val="{{ false }}">
+                  <div style="padding:4px 14px 14px;display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:10px;">
+                    <sc-for list="{{ cat.itemsList }}" as="it" hint-placeholder-count="6">
+                      <div style="padding:10px 12px;background:#f8fafc;border-radius:7px;border-left:3px solid {{ cat.accent }};">
+                        <div style="font-size:11px;font-weight:700;color:{{ cat.accent }};text-transform:uppercase;letter-spacing:0.05em;margin-bottom:3px;">{{ it.label }}</div>
+                        <p style="font-size:12.5px;color:#334155;line-height:1.55;margin:0;text-wrap:pretty;">{{ it.text }}</p>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
     <sc-if value="{{ isReading }}" hint-placeholder-val="{{ false }}">
       <div style="display:flex;flex-direction:column;gap:20px;">
         <div style="background:#fff;border-radius:12px;padding:20px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:16px;">
@@ -796,7 +848,9 @@ class Component extends DCLogic {
     irRubricOpen: false,
     writingSection: 'aiPolicy',
     copiedPromptKey: null,
-    expandedThreadId: null
+    expandedThreadId: null,
+    journalIndex: 0,
+    expandedRrCat: 'craft'
   };
 
   toggleThread = (id) => this.setState((s) => ({ expandedThreadId: s.expandedThreadId === id ? null : id }));
@@ -840,12 +894,216 @@ class Component extends DCLogic {
     ] }
   ];
 
+  journalPrompts = [
+    "Describe a moment when you felt truly proud of yourself.",
+    "If you could have any superpower, what would it be and why?",
+    "Write about a time when you helped someone. How did it make you feel?",
+    "What is your favorite book or movie, and why does it resonate with you?",
+    "Imagine you could travel anywhere in the world. Where would you go and what would you do?",
+    "Describe a challenge you faced and how you overcame it.",
+    "What are three things you are grateful for today?",
+    "If you could meet any historical figure, who would it be and why?",
+    "Write about a time when you felt out of your comfort zone. What did you learn from the experience?",
+    "What are your goals for this school year? How do you plan to achieve them?",
+    "Describe your ideal day from start to finish.",
+    "If you could change one thing about the world, what would it be and why?",
+    "Write about a person who has had a significant impact on your life.",
+    "What is your favorite hobby or activity? Why do you enjoy it?",
+    "Imagine you are an inventor. What would you create and how would it benefit people?",
+    "Describe a place where you feel most at peace.",
+    "What qualities do you value most in a friend?",
+    "Write about a time when you had to make a difficult decision. What was the outcome?",
+    "If you could live in any time period, which one would you choose and why?",
+    "What is something you have always wanted to learn? Why?",
+    "Describe a memorable family tradition or celebration.",
+    "What does success mean to you?",
+    "Write about a time when you felt misunderstood. How did you handle it?",
+    "If you could have dinner with any three people, living or dead, who would they be and why?",
+    "What is your favorite season and what do you enjoy most about it?",
+    "Describe a time when you worked as part of a team. What was your role?",
+    "What is a cause or issue you are passionate about? Why?",
+    "Write about a book or article that changed your perspective on something.",
+    "If you could be any animal for a day, which one would you choose and why?",
+    "Describe a time when you felt inspired. What inspired you?",
+    "What are your strengths and how do you use them in your daily life?",
+    "Write about a time when you faced a fear. What did you learn from the experience?",
+    "If you could create a new holiday, what would it be and how would people celebrate it?",
+    "Describe a person you admire and explain why.",
+    "What is your favorite subject in school and why?",
+    "Write about a time when you had to apologize. How did it make you feel?",
+    "If you could switch lives with anyone for a day, who would it be and why?",
+    "Describe a time when you felt really happy. What contributed to that feeling?",
+    "What are your dreams for the future?",
+    "Write about a time when you learned something new about yourself.",
+    "If you could have any job in the world, what would it be and why?",
+    "Describe a time when you felt disappointed. How did you cope with it?",
+    "What is your favorite way to relax and unwind?",
+    "Write about a time when you made a new friend. How did it happen?",
+    "If you could invent a new gadget, what would it do and how would it work?",
+    "Describe a time when you felt really proud of someone else. What did they do?",
+    "What is your favorite family tradition and why?",
+    "Write about a time when you had to stand up for what you believe in.",
+    "If you could have any talent or skill, what would it be and why?",
+    "Describe a time when you felt really creative. What did you create?",
+    "What is your favorite way to spend a weekend?",
+    "Write about a time when you felt really grateful. What were you grateful for?",
+    "If you could change one thing about yourself, what would it be and why?",
+    "Describe a time when you felt really motivated. What motivated you?",
+    "What is your favorite memory from childhood?",
+    "Write about a time when you had to be patient. How did you manage it?",
+    "If you could have any pet, what would it be and why?",
+    "Describe a time when you felt really curious. What did you want to learn more about?",
+    "What is your favorite holiday and why?",
+    "Write about a time when you felt really proud of your accomplishments.",
+    "If you could create a new law, what would it be and why?",
+    "Describe a time when you felt really connected to nature. What were you doing?",
+    "What is your favorite way to express yourself creatively?",
+    "Write about a time when you felt really determined. What were you trying to achieve?",
+    "If you could have any fictional character as a friend, who would it be and why?",
+    "Describe a time when you felt really peaceful. What contributed to that feeling?",
+    "What is your favorite way to spend time with your family?",
+    "Write about a time when you felt really proud of your community.",
+    "If you could have any job for a day, what would it be and why?",
+    "Describe a time when you felt really adventurous. What did you do?",
+    "What is your favorite way to help others?",
+    "Write about a time when you felt really proud of your school.",
+    "If you could have any piece of technology, what would it be and why?",
+    "Describe a time when you felt really excited. What were you looking forward to?",
+    "What is your favorite way to stay active and healthy?",
+    "Write about a time when you felt really proud of your friends.",
+    "If you could have any piece of art, what would it be and why?",
+    "Describe a time when you felt really proud of your achievements.",
+    "What is your favorite way to learn new things?",
+    "Write about a time when you felt really proud of your family.",
+    "If you could have any piece of music, what would it be and why?",
+    "Describe a time when you felt really proud of your culture.",
+    "What is your favorite way to celebrate special occasions?",
+    "Write about a time when you felt really proud of your heritage.",
+    "If you could have any piece of literature, what would it be and why?",
+    "Describe a time when you felt really proud of your identity.",
+    "What is your favorite way to spend time with your friends?",
+    "Write about a time when you felt really proud of your accomplishments.",
+    "If you could have any piece of history, what would it be and why?",
+    "Describe a time when you felt really proud of your values.",
+    "What is your favorite way to reflect on your experiences?",
+    "Write about a time when you felt really proud of your beliefs.",
+    "If you could have any piece of wisdom, what would it be and why?",
+    "Describe a time when you felt really proud of your actions.",
+    "What is your favorite way to set goals for yourself?",
+    "Write about a time when you felt really proud of your decisions.",
+    "If you could have any piece of advice, what would it be and why?",
+    "Describe a time when you felt really proud of your growth.",
+    "What is your favorite way to track your progress?",
+    "Write about a time when you felt really proud of your journey."
+  ];
+
+  readerResponseCats = [
+    { id: "craft", label: "How the Author Writes", icon: "fa-solid fa-feather-pointed", accent: "#002855", items: [
+      { label: "Topic", text: "What was his or her subject? Why this topic?" },
+      { label: "Plot", text: "What happened; what were the events of the story?" },
+      { label: "Pace", text: "How quickly or slowly did the author move the plot? Was it gradual enough to be believable and keep you involved? Fast enough to hold a reader’s interest? Was there too much action and not enough character development?" },
+      { label: "Plausibility", text: "Did the plot ring true? Would characters act and react this way? Were the circumstances believable? Did it matter?" },
+      { label: "Description and detail", text: "Could we see it happening? Feel it? Hear it? Too little description? Too many details?" },
+      { label: "Dialogue", text: "Was the talk realistic? Could we hear the individual characters’ voices? Too much dialogue? Too little? What did the dialogue show about the moods, ages, intentions, and backgrounds of the characters?" },
+      { label: "Shifts in time", text: "How did the author use flashbacks, flash-forwards, and foreshadowing, and why?" },
+      { label: "Emotions", text: "Did the reader laugh? Cry? Why?" },
+      { label: "Setting", text: "What time and place did the author choose? Why? Was the setting important to the story? Was it convincing? Confusing?" },
+      { label: "Main characters", text: "Who were they? How can you tell who the main character is?" },
+      { label: "Character development", text: "How were characters introduced and developed? Were they believable? Could you see through their eyes? Which characters did you relate to? Did any remind you of characters from other stories, or of people from your real life?" },
+      { label: "Title", text: "Did it fit? Was it a grabber? Did it give too much away?" },
+      { label: "Theme", text: "What ideas about life and living come through the story?" },
+      { label: "Problem", text: "What was the issue for the main character to try to resolve?" },
+      { label: "Suspense", text: "Did you wonder what would happen next? How did the author establish a suspenseful tone? Did the author surprise you?" },
+      { label: "Formula", text: "Could you predict too easily what was going to happen? Was it too much like other books by this author or from this genre?" },
+      { label: "Conventions", text: "Did you notice short paragraphs or chapters? Sentence fragments? Why did the author write this way?" },
+      { label: "Information", text: "Were there enough specifics about character, action, background, and setting? Was there too much, or too much that was irrelevant?" },
+      { label: "Specific information", text: "What did you learn about the world — history, art, politics, science — through the narrative?" },
+      { label: "Length", text: "Was this book too long? Too short?" },
+      { label: "Point of view", text: "Who told the story? First person or third? Single, dual, or multiple characters? Why did the author choose this point of view, and where did it leave you in relation to the narrator?" },
+      { label: "Grace of language", text: "Did the sentences flow, or were they choppy? Did you savor particular phrases? Was there figurative language, imagery, or sensory detail?" },
+      { label: "First sentence", text: "How did the author bring you in?" },
+      { label: "Lead", text: "How did the author try to keep you there?" },
+      { label: "Conclusion", text: "How did the author leave you? Why this ending?" },
+      { label: "Prologues and epilogues", text: "How were these special introductions and conclusions used, and to what effect?" },
+      { label: "Experimental technique", text: "Did the author use any unusual narrative techniques? What did you think?" },
+      { label: "In-jokes", text: "Did you pick up on inside jokes in the text?" }
+    ] },
+    { id: "author", label: "The Author", icon: "fa-solid fa-user-pen", accent: "#9C1918", items: [
+      { label: "Writing process", text: "What can you speculate about — or find published about — this author’s writing process?" },
+      { label: "Other works", text: "What else has this author written, including sequels, trilogies, and series?" },
+      { label: "Comparisons", text: "How does this book compare with other books by the same author?" },
+      { label: "Style", text: "How does this author’s style compare with other authors you have read?" },
+      { label: "Similar books", text: "What books by other authors are similar in topic, genre, or theme?" },
+      { label: "Biography", text: "What biographical information about the author shapes how you read the book?" },
+      { label: "Life into fiction", text: "How might the author have used elements of their own life and experiences in this work?" },
+      { label: "Research", text: "In what other ways might the author have researched this subject?" },
+      { label: "New work", text: "Is there news of a new release by this author?" }
+    ] },
+    { id: "genre", label: "Genre", icon: "fa-solid fa-layer-group", accent: "#1e40af", items: [
+      { label: "Elements of fiction", text: "What are the elements of fiction at work in this book?" },
+      { label: "Novels", text: "What makes a novel a novel?" },
+      { label: "Short stories", text: "What makes a short story a short story?" },
+      { label: "Poetry", text: "What makes a poem a poem? How does it differ from prose, and how do different poetic techniques affect you?" },
+      { label: "Fiction and nonfiction", text: "How do we classify books as one or the other?" },
+      { label: "Classification", text: "Where does this book fall — adventure, autobiography, biography, classic, contemporary realistic fiction, diary, drama, epistolary novel, family saga, history, historical fiction, horror, humor or parody, journalism, legend or myth, memoir, mystery, nature, romance, science fiction, series novel, screenplay, sports, supernatural, techno-thriller, urban life, war and espionage, or western?" },
+      { label: "Next", text: "What other kinds of writing might you like to read?" }
+    ] },
+    { id: "strategies", label: "Your Strategies", icon: "fa-solid fa-compass-drafting", accent: "#166534", items: [
+      { label: "Choice", text: "How do you decide what to read?" },
+      { label: "Pace", text: "Did you skim, skip, slow down, reread a line, speed up, or look ahead? Why, when, and with what effect?" },
+      { label: "Abandoning", text: "How and when did you decide to abandon a book?" },
+      { label: "Rereading", text: "Why did you reread this book? What did you notice the second time through?" },
+      { label: "Revisiting", text: "Why did you skim back to a particular part — for pleasure, or for clarification?" },
+      { label: "Planning", text: "Are you anticipating a particular book, author, or genre next?" },
+      { label: "Predicting", text: "Did you imagine what would happen next? Was your guess correct?" },
+      { label: "Revising", text: "Did you consider other ways the author might have written it?" },
+      { label: "Connecting", text: "Did you relate this book to another book, a poem or song, or your own experiences and feelings?" },
+      { label: "Analyzing", text: "What did you think the book was really about?" },
+      { label: "Time", text: "How long did the book take you, and why so long or so quickly?" },
+      { label: "Reading rate", text: "How many pages did you read in a half hour? How did your rate vary with the type of book?" },
+      { label: "Easy books", text: "Why do you sometimes need a mindless break?" },
+      { label: "Difficulty", text: "What makes a book a challenge? What do you do when a book is difficult — or too difficult?" },
+      { label: "Schema", text: "Did you have enough background experience to understand and appreciate this book?" },
+      { label: "Unknown vocabulary", text: "What did you do when you came across an unfamiliar word?" },
+      { label: "Rituals", text: "When, how, and where do you read? Why?" },
+      { label: "History", text: "How did you learn to read? Do you buy, own, or collect books?" }
+    ] },
+    { id: "emotions", label: "Your Emotions", icon: "fa-solid fa-heart", accent: "#b45309", items: [
+      { label: "Feeling", text: "How did the book make you feel?" },
+      { label: "Thinking", text: "What did the book make you think about?" },
+      { label: "New understanding", text: "What do you think or understand now that you did not before?" },
+      { label: "Involvement", text: "What was your involvement with the characters?" },
+      { label: "Learning", text: "What did you learn about through the story?" },
+      { label: "Likes and dislikes", text: "What did you like or dislike about the book?" },
+      { label: "Best and worst", text: "What were the best and worst features of the book?" },
+      { label: "Rating", text: "How would you rate this book?" }
+    ] },
+    { id: "recommend", label: "Recommendations", icon: "fa-solid fa-share-nodes", accent: "#6d28d9", items: [
+      { label: "Worth it", text: "Is this book worth recommending?" },
+      { label: "Audience", text: "Who might enjoy it?" },
+      { label: "Other readers", text: "What reactions did other readers report?" },
+      { label: "Authors", text: "Who are good authors to look for?" },
+      { label: "Titles", text: "What are the titles of other good books — by this author, or by others on a similar subject or theme?" },
+      { label: "Access", text: "Where could someone interested in this book find it?" }
+    ] }
+  ];
+
+  pickPrompt = () => {
+    const n = this.journalPrompts.length;
+    let i = Math.floor(Math.random() * n);
+    if (i === this.state.journalIndex) i = (i + 1) % n;
+    this.setState({ journalIndex: i });
+  };
+
+  toggleRrCat = (id) => this.setState((s) => ({ expandedRrCat: s.expandedRrCat === id ? null : id }));
+
   tabDefs = [
     { id: 'overview', label: 'Course Information', icon: 'fa-compass' },
     { id: 'core-lit', label: 'Core Literature', icon: 'fa-book-journal-whills' },
     { id: 'writing', label: 'Writing & AI', icon: 'fa-pen-nib' },
     { id: 'vocab', label: 'Vocabulary', icon: 'fa-spell-check' },
     { id: 'grammar', label: 'Edit Notes', icon: 'fa-feather-pointed' },
+    { id: 'journal', label: 'Journaling', icon: 'fa-pen-fancy' },
     { id: 'reading', label: 'Independent Reading', icon: 'fa-book-bookmark' }
   ];
 
@@ -1783,6 +2041,18 @@ class Component extends DCLogic {
       isVocab: activeTab === 'vocab',
       isGrammar: activeTab === 'grammar',
       isReading: activeTab === 'reading',
+      isJournal: activeTab === 'journal',
+      journalPromptText: this.journalPrompts[this.state.journalIndex],
+      journalPromptNumber: 'Prompt ' + (this.state.journalIndex + 1) + ' of ' + this.journalPrompts.length,
+      onNewPrompt: this.pickPrompt,
+      readerResponseCatsList: this.readerResponseCats.map((c) => {
+        const isOpen = this.state.expandedRrCat === c.id;
+        return { ...c, isOpen, itemsList: c.items,
+          headerBg: isOpen ? '#f1f5f9' : '#fff',
+          chevronClass: isOpen ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down',
+          countLabel: c.items.length + ' prompts',
+          onToggle: () => this.toggleRrCat(c.id) };
+      }),
       tabs,
       gradeRows,
       standardsThreadsList,
