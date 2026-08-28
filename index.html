@@ -850,7 +850,7 @@ class Component extends DCLogic {
     copiedPromptKey: null,
     expandedThreadId: null,
     journalIndex: 0,
-    expandedRrCat: 'craft'
+    expandedRrCat: null
   };
 
   toggleThread = (id) => this.setState((s) => ({ expandedThreadId: s.expandedThreadId === id ? null : id }));
