@@ -460,7 +460,12 @@
             <h2 style="font-family:'Lora',serif;font-size:20px;font-weight:700;color:#002855;margin:0;">Vocabulary Lists &amp; Practice</h2>
             <p style="font-size:13px;color:#475569;margin:6px 0 0;">Choose a list to view its words and study with flashcards.</p>
           </div>
-          <a href="https://gemini.google.com/gem/1BnhfxZJfqMxUwXxJFKHt143kX5fCDpY0?usp=sharing" target="_blank" rel="noopener" style="padding:10px 16px;background:#9C1918;color:#fff;font-size:13px;font-weight:600;border-radius:8px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:8px;height:fit-content;" style-hover="background:#7d1312;"><i class="fa-solid fa-wand-magic-sparkles"></i> Practice with Vocab Gem</a>
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;height:fit-content;">
+            <sc-if value="{{ hasWords }}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ onOpenFlashcards }}" style="padding:11px 18px;background:#9C1918;color:#fff;font-size:13.5px;font-weight:700;border-radius:8px;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;" style-hover="background:#7d1312;"><i class="fa-solid fa-layer-group"></i> Start Here: Study with Flashcards</button>
+            </sc-if>
+            <a href="https://gemini.google.com/gem/1BnhfxZJfqMxUwXxJFKHt143kX5fCDpY0?usp=sharing" target="_blank" rel="noopener" style="padding:7px 13px;background:#fff;color:#475569;font-size:12px;font-weight:600;border:1px solid #cbd5e1;border-radius:7px;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:7px;" style-hover="background:#f1f5f9;color:#002855;"><i class="fa-solid fa-wand-magic-sparkles" style="font-size:11px;"></i> Practice with Vocab Gem</a>
+          </div>
         </div>
 
         <div style="background:#fff;border-radius:12px;padding:20px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:16px;">
@@ -474,9 +479,6 @@
               </select>
               <a href="{{ vocabPdfUrl }}" target="_blank" rel="noopener" style="font-size:12px;color:#9C1918;font-weight:600;text-decoration:underline;">Open full list PDF</a>
             </div>
-            <sc-if value="{{ hasWords }}" hint-placeholder-val="{{ false }}">
-              <button onClick="{{ onOpenFlashcards }}" style="padding:9px 16px;background:#002855;color:#fff;font-size:13px;font-weight:600;border-radius:8px;border:none;cursor:pointer;display:flex;align-items:center;gap:8px;" style-hover="background:#001c3d;"><i class="fa-solid fa-layer-group"></i> Study with Flashcards</button>
-            </sc-if>
           </div>
 
           <sc-if value="{{ hasWords }}" hint-placeholder-val="{{ false }}">
