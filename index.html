@@ -8,6 +8,7 @@
 <body>
 <x-dc>
 <helmet>
+  <title>English 9 Resource Hub</title>
   <template id="__bundler_thumbnail">
     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
       <rect width="200" height="200" fill="#002855" data-bg-color="#002855" />
@@ -246,8 +247,8 @@
       <div style="display:flex;flex-direction:column;gap:20px;">
         <div style="background:#fff;border-radius:12px;padding:20px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:16px;">
           <div>
-            <h2 style="font-family:'Lora',serif;font-size:20px;font-weight:700;color:#002855;margin:0;">Writing Resources &amp; AI Policy</h2>
-            <p style="font-size:13px;color:#475569;margin:6px 0 0;">Reference material and sentence templates for academic writing, plus our classroom AI policy.</p>
+            <h2 style="font-family:'Lora',serif;font-size:20px;font-weight:700;color:#002855;margin:0;">Writing Resources</h2>
+            <p style="font-size:13px;color:#475569;margin:6px 0 0;">Reference material and sentence templates for academic writing.</p>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:8px;">
             <sc-for list="{{ writingSections }}" as="ws" hint-placeholder-count="5">
@@ -364,8 +365,10 @@
             </div>
           </div>
         </sc-if>
+      </div>
+    </sc-if>
 
-        <sc-if value="{{ isAiPolicy }}" hint-placeholder-val="{{ false }}">
+        <sc-if value="{{ isAiTab }}" hint-placeholder-val="{{ false }}">
           <div style="display:flex;flex-direction:column;gap:20px;">
             <div style="background:#fff;border-radius:12px;padding:24px;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(0,0,0,0.04);display:flex;flex-direction:column;gap:16px;">
               <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
@@ -450,8 +453,6 @@
             </div>
           </div>
         </sc-if>
-      </div>
-    </sc-if>
 
     <sc-if value="{{ isVocab }}" hint-placeholder-val="{{ false }}">
       <div style="display:flex;flex-direction:column;gap:20px;">
@@ -851,7 +852,7 @@ class Component extends DCLogic {
     revealedAnswers: {},
     revealedHomework: {},
     irRubricOpen: false,
-    writingSection: 'aiPolicy',
+    writingSection: 'literaryTerms',
     copiedPromptKey: null,
     expandedThreadId: null,
     journalIndex: 0,
@@ -1105,11 +1106,12 @@ class Component extends DCLogic {
   tabDefs = [
     { id: 'overview', label: 'Course Information', icon: 'fa-compass' },
     { id: 'core-lit', label: 'Core Literature', icon: 'fa-book-journal-whills' },
-    { id: 'writing', label: 'Writing & AI', icon: 'fa-pen-nib' },
+    { id: 'reading', label: 'Independent Reading', icon: 'fa-book-bookmark' },
     { id: 'vocab', label: 'Vocabulary', icon: 'fa-spell-check' },
     { id: 'grammar', label: 'Edit Notes', icon: 'fa-feather-pointed' },
-    { id: 'journal', label: 'Journaling', icon: 'fa-pen-fancy' },
-    { id: 'reading', label: 'Independent Reading', icon: 'fa-book-bookmark' }
+    { id: 'ai-policy', label: 'AI Policy', icon: 'fa-robot' },
+    { id: 'writing', label: 'Writing', icon: 'fa-pen-nib' },
+    { id: 'journal', label: 'Journaling', icon: 'fa-pen-fancy' }
   ];
 
   literaryTerms = [
@@ -1929,7 +1931,6 @@ class Component extends DCLogic {
     const findPdf = (key) => this.assetUrl(this.writingResourceDefs.find((r) => r.key === key).pdfUrl);
 
     const writingSections = [
-      { key: 'aiPolicy', label: 'AI Policy & Prompts' },
       { key: 'literaryTerms', label: 'Literary Terms' },
       { key: 'summaryFrame', label: 'Summary Frame' },
       { key: 'artOfSummarizing', label: 'Art of Summarizing' },
@@ -1944,7 +1945,7 @@ class Component extends DCLogic {
     const isSummaryFrame = writingSection === 'summaryFrame';
     const isArtOfSummarizing = writingSection === 'artOfSummarizing';
     const isTheySayISay = writingSection === 'theySayISay';
-    const isAiPolicy = writingSection === 'aiPolicy';
+    const isAiTab = activeTab === 'ai-policy';
 
     const literaryTermsList = this.literaryTerms.map((t, i) => ({ ...t, i }));
     const summaryVerbsList = this.summaryVerbs.map((v, i) => ({ v, i }));
@@ -2113,7 +2114,7 @@ class Component extends DCLogic {
       grammarLabUrl: 'https://dsmith-bhhs.github.io/GrammarLab/',
       irSiteUrl: this.irSiteUrl,
       writingSections,
-      isLiteraryTerms, isSummaryFrame, isArtOfSummarizing, isTheySayISay, isAiPolicy,
+      isLiteraryTerms, isSummaryFrame, isArtOfSummarizing, isTheySayISay, isAiTab,
       literaryTermsList,
       summaryVerbsList, summaryTransitionsList, summaryFramePdfUrl: findPdf('summaryFrame'),
       artTemplatesList, artVerbGroupsList,
